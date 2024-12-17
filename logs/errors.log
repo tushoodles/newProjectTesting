@@ -1,0 +1,108 @@
+[2024-11-28T16:15:54.304] [ERROR] middleware - [POST] /api/v1/auth/signup >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'set')
+[2024-11-28T16:17:26.383] [ERROR] middleware - [POST] /api/v1/auth/signup >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'set')
+[2024-11-28T16:18:55.347] [ERROR] middleware - [POST] /api/v1/auth/signup >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'set')
+[2024-11-28T16:19:15.329] [ERROR] middleware - [POST] /api/v1/auth/signup >> StatusCode:: 500, Message:: result is not defined
+[2024-11-28T16:30:06.146] [ERROR] middleware - [POST] /api/v1/auth/signup >> StatusCode:: 500, Message:: this.redisClient.set is not a function
+[2024-11-28T16:37:36.321] [ERROR] middleware - [POST] /api/v1/auth/signup >> StatusCode:: 500, Message:: Cannot access 'result' before initialization
+[2024-11-29T15:00:23.995] [ERROR] middleware - [POST] /api/v1/auth/signup >> StatusCode:: 500, Message:: val is not defined
+[2024-11-29T15:10:12.778] [ERROR] middleware - [POST] /api/v1/auth/signup >> StatusCode:: 500, Message:: Cannot read properties of null (reading 'create')
+[2024-11-29T15:13:34.232] [ERROR] middleware - [POST] /api/v1/auth/signup >> StatusCode:: 500, Message:: newuser.save is not a function
+[2024-11-29T15:15:42.525] [ERROR] middleware - [POST] /api/v1/auth/signup >> StatusCode:: 409, Message:: Email already exists , Please use different email
+[2024-11-29T15:16:47.256] [ERROR] middleware - [POST] /api/v1/auth/signup >> StatusCode:: 409, Message:: Email already exists , Please use different email
+[2024-11-29T15:17:11.912] [ERROR] middleware - [POST] /api/v1/auth/signup >> StatusCode:: 409, Message:: Email already exists , Please use different email
+[2024-11-29T15:50:46.166] [ERROR] middleware - [POST] /api/v1/auth/signup >> StatusCode:: 409, Message:: Email already exists , Please use different email
+[2024-12-12T16:51:03.304] [ERROR] auth.socket.middleware - HTTPException [Error]: Unauthorized. You must authenticate before accessing this resource.
+    at Array.AuthSocket (/home/tushar/Desktop/Testing/src/middleware/auth.socket.middleware.js:12:20)
+    at run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:130:19)
+    at Namespace.run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:141:9)
+    at Namespace._add (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:218:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 401,
+  data: undefined
+}
+[2024-12-12T16:52:48.699] [ERROR] auth.socket.middleware - HTTPException [Error]: Unauthorized. You must authenticate before accessing this resource.
+    at Array.AuthSocket (/home/tushar/Desktop/Testing/src/middleware/auth.socket.middleware.js:12:20)
+    at run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:130:19)
+    at Namespace.run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:141:9)
+    at Namespace._add (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:218:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 401,
+  data: undefined
+}
+[2024-12-12T16:55:23.625] [ERROR] auth.socket.middleware - HTTPException [Error]: Unauthorized. You must authenticate before accessing this resource.
+    at Array.AuthSocket (/home/tushar/Desktop/Testing/src/middleware/auth.socket.middleware.js:12:20)
+    at run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:130:19)
+    at Namespace.run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:141:9)
+    at Namespace._add (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:218:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 401,
+  data: undefined
+}
+[2024-12-12T16:56:32.198] [ERROR] auth.socket.middleware - HTTPException [Error]: Unauthorized. You must authenticate before accessing this resource.
+    at Array.AuthSocket (/home/tushar/Desktop/Testing/src/middleware/auth.socket.middleware.js:12:20)
+    at run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:130:19)
+    at Namespace.run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:141:9)
+    at Namespace._add (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:218:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 401,
+  data: undefined
+}
+[2024-12-12T16:58:14.606] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-12T17:04:52.514] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-12T17:08:19.877] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-12T17:10:40.522] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-12T17:10:43.503] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-16T16:58:44.687] [ERROR] middleware - [POST] /api/v1/auth/signup >> StatusCode:: 500, Message:: User validation failed: name: Path `name` is required., email: Path `email` is required., usertype: Path `usertype` is required., password: Path `password` is required.
+[2024-12-16T17:00:15.372] [ERROR] middleware - [POST] /api/v1/auth/signup >> StatusCode:: 500, Message:: User validation failed: name: Path `name` is required., email: Path `email` is required., usertype: Path `usertype` is required., password: Path `password` is required.
+[2024-12-16T17:03:55.414] [ERROR] middleware - [POST] /api/v1/auth/signup >> StatusCode:: 409, Message:: Email already exists , Please use different email
+[2024-12-16T17:23:02.987] [ERROR] middleware - [POST] /api/v1/auth/signup >> StatusCode:: 500, Message:: User validation failed: name: Path `name` is required., email: Path `email` is required., usertype: Path `usertype` is required., password: Path `password` is required.
+[2024-12-16T17:29:54.489] [ERROR] middleware - [POST] /api/v1/auth/login >> StatusCode:: 500, Message:: errorCodes is not defined
+[2024-12-16T17:34:13.006] [ERROR] middleware - [POST] /api/v1/auth/login >> StatusCode:: 500, Message:: errorCodes is not defined
+[2024-12-16T17:36:26.149] [ERROR] middleware - [POST] /api/v1/auth/login >> StatusCode:: 500, Message:: errorCodes is not defined
+[2024-12-16T17:38:27.818] [ERROR] middleware - [POST] /api/v1/auth/login >> StatusCode:: 401, Message:: Email is required.
+[2024-12-16T17:38:50.226] [ERROR] middleware - [POST] /api/v1/auth/login >> StatusCode:: 401, Message:: Email is required.
+[2024-12-16T17:39:43.830] [ERROR] middleware - [POST] /api/v1/auth/login >> StatusCode:: 401, Message:: Provide a valid email for authenticity.
+[2024-12-16T17:42:02.894] [ERROR] middleware - [POST] /api/v1/auth/login >> StatusCode:: 401, Message:: Password is required.
+[2024-12-16T17:42:20.095] [ERROR] middleware - [POST] /api/v1/auth/login >> StatusCode:: 401, Message:: Password must be at least 8 characters long and include one uppercase letter, one lowercase letter, one digit, and one special character.
+[2024-12-16T17:42:58.479] [ERROR] middleware - [POST] /api/v1/auth/login >> StatusCode:: 401, Message:: Inavalid password
+[2024-12-16T17:46:59.007] [ERROR] middleware - [POST] /api/v1/auth/signup >> StatusCode:: 500, Message:: User validation failed: usertype: Path `usertype` is required.
+[2024-12-16T17:47:49.278] [ERROR] middleware - [POST] /api/v1/auth/login >> StatusCode:: 401, Message:: Provide a valid email for authenticity.
+[2024-12-16T17:48:38.061] [ERROR] middleware - [POST] /api/v1/auth/login >> StatusCode:: 401, Message:: Inavalid password
+[2024-12-16T17:53:10.905] [ERROR] middleware - [POST] /api/v1/auth/signup >> StatusCode:: 500, Message:: errorType is not defined
+[2024-12-16T17:54:46.792] [ERROR] middleware - [POST] /api/v1/auth/signup >> StatusCode:: 401, Message:: Inavalid password
+[2024-12-16T18:10:01.930] [ERROR] middleware - [POST] /api/v1/auth/login >> StatusCode:: 500, Message:: User.passwordMatched is not a function
+[2024-12-16T18:10:38.382] [ERROR] middleware - [POST] /api/v1/auth/login >> StatusCode:: 500, Message:: User.passwordMatched is not a function
+[2024-12-16T18:12:54.694] [ERROR] middleware - [POST] /api/v1/auth/login >> StatusCode:: 500, Message:: userexist.passwordMatched is not a function
+[2024-12-16T18:13:24.039] [ERROR] middleware - [POST] /api/v1/auth/login >> StatusCode:: 500, Message:: userexist.passwordMatched is not a function
+[2024-12-16T18:17:46.071] [ERROR] middleware - [POST] /api/v1/auth/login >> StatusCode:: 404, Message:: Something went wrong
+[2024-12-16T18:23:21.177] [ERROR] middleware - [POST] /api/v1/auth/login >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading '0')
+[2024-12-16T18:25:14.941] [ERROR] middleware - [POST] /api/v1/auth/login >> StatusCode:: 404, Message:: User Does not exist.
+[2024-12-16T18:30:02.804] [ERROR] middleware - [POST] /api/v1/auth/login >> StatusCode:: 401, Message:: U
+[2024-12-16T18:30:30.207] [ERROR] middleware - [POST] /api/v1/auth/login >> StatusCode:: 401, Message:: U
+[2024-12-16T18:31:26.120] [ERROR] middleware - [POST] /api/v1/auth/login >> StatusCode:: 401, Message:: Unauthorized. You must authenticate before accessing this resource.
+[2024-12-17T11:22:50.834] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt malformed
+[2024-12-17T11:26:48.542] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt malformed
+[2024-12-17T11:28:04.478] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt malformed
+[2024-12-17T11:28:39.232] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt malformed
+[2024-12-17T11:29:17.442] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt must be a string
+[2024-12-17T11:29:38.431] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt must be a string
+[2024-12-17T11:31:13.036] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt must be a string
+[2024-12-17T11:33:49.555] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt malformed
+[2024-12-17T11:36:27.422] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt malformed
+[2024-12-17T11:46:08.830] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt malformed
+[2024-12-17T11:47:49.771] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt malformed
+[2024-12-17T11:51:06.198] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt malformed
+[2024-12-17T11:51:54.157] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt malformed
+[2024-12-17T11:52:32.952] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt malformed
+[2024-12-17T11:56:35.866] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt malformed
+[2024-12-17T11:58:10.133] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt malformed
+[2024-12-17T11:58:16.884] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt malformed
+[2024-12-17T11:59:27.285] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt malformed
+[2024-12-17T12:03:39.461] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: z is not defined
+[2024-12-17T12:04:16.282] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt malformed
+[2024-12-17T12:06:33.295] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt malformed
+[2024-12-17T12:14:37.663] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: Cannot do exclusion on field password in inclusion projection
+[2024-12-17T12:17:28.466] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: Cannot do exclusion on field password in inclusion projection
+[2024-12-17T12:26:20.368] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: validemail is not defined
+[2024-12-17T12:27:14.965] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'detail')
+[2024-12-17T12:27:35.914] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'details')
