@@ -5,12 +5,12 @@ const path = require('path');
 const logger = require('log4js').getLogger('node.mailer')
 
 const MAIL_CONFIG = {
-    host: "smtp.sendgrid.net",
+    host: "smtp.gmail.com",
     port: 587,
     secure: false, 
     auth: {
-      user: 'apikey',
-      pass:SENDGRID_API_KEY,
+      user: 'tushar.shrivastav@oodles.io',
+      pass:'',
     },
 };
 
@@ -42,7 +42,7 @@ async function SendMail({email , otp  , purpose}){
             }
 
         const mailOptions = {
-            from :SENDGRID_MAIL,
+            from :'tushar.shrivastav@oodles.io',
             to:email,
             subject:subject,
             html:htmlTemplate

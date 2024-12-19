@@ -42,15 +42,16 @@ class WebChatSocket{
 
         setupSocket(){
             //this.io.use(AuthSocket);
-            console.log("SAade")
             this.io.on('connection',(socket)=>{
                 logger.info(`New User Connected ${socket.id}`)
                 //console.log("socket", socket);
-                this.joinPreviousRoom({socket});
+                // this.joinPreviousRoom({socket});
             
                 
                 socket.on(SOCKET_EVENTS.JOIN_CHAT,async(data)=>{
+                    console.log("socket", socket);
                     console.log("data", data);
+                    this.io.emit('listen', data);
                     // const roomId = await this.createChatRoom({socket , data});
                     // return roomId;
                 });

@@ -6,7 +6,7 @@ class RedisClient {
     constructor() {
         this.client = new Redis({
             host: REDIS_HOST,
-            port: REDIS_PORT, // Corrected property name
+            port: REDIS_PORT,
         });
         this.setupEventListeners();
     }
@@ -29,16 +29,37 @@ class RedisClient {
         });
     }
 
+    async set(key, value, ttl) {
+        try {
+            await this.client.set(key, value, 'EX', ttl);
+            logger.info(`Key ${key} set successfully with TTL of ${ttl} seconds`);
+        } catch (error) {
+            logger.error(`Failed to set key ${key}:`, error);
+            throw error;
+        }
+    }
+
+    async get(key) {
+        try {
+            const value = await this.client.get(key);
+            logger.info(`Key ${key} retrieved successfully`);
+            return value;
+        } catch (error) {
+            logger.error(`Failed to get key ${key}:`, error);
+            throw error;
+        }
+    }
+
     static getInstance() {
         if (!RedisClient.instance) {
             RedisClient.instance = new RedisClient();
         }
-        return RedisClient.instance; // Return the instance of RedisClient
+        return RedisClient.instance;
     }
 
     getClient() {
-        return this.client; // Return the Redis client instance
+        return this.client;
     }
 }
 
-module.exports = RedisClient.getInstance(); // Export the singleton instance
+module.exports = RedisClient.getInstance();

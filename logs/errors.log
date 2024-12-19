@@ -106,3 +106,129 @@
 [2024-12-17T12:26:20.368] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: validemail is not defined
 [2024-12-17T12:27:14.965] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'detail')
 [2024-12-17T12:27:35.914] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'details')
+[2024-12-19T16:25:09.435] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-19T16:25:39.109] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-19T16:26:38.232] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-19T16:27:11.063] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-19T16:27:12.915] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-19T16:27:45.855] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-19T16:27:46.843] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-19T16:28:27.467] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-19T16:28:27.525] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-19T16:28:33.681] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-19T16:28:37.245] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-19T16:40:56.516] [ERROR] auth.socket.middleware - HTTPException [Error]: Unauthorized. You must authenticate before accessing this resource.
+    at Array.AuthSocket (/home/tushar/Desktop/Testing/src/middleware/auth.socket.middleware.js:13:20)
+    at run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:130:19)
+    at Namespace.run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:141:9)
+    at Namespace._add (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:218:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 401,
+  data: undefined
+}
+[2024-12-19T16:40:56.534] [ERROR] auth.socket.middleware - HTTPException [Error]: Unauthorized. You must authenticate before accessing this resource.
+    at Array.AuthSocket (/home/tushar/Desktop/Testing/src/middleware/auth.socket.middleware.js:13:20)
+    at run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:130:19)
+    at Namespace.run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:141:9)
+    at Namespace._add (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:218:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 401,
+  data: undefined
+}
+[2024-12-19T16:40:58.416] [ERROR] auth.socket.middleware - HTTPException [Error]: Unauthorized. You must authenticate before accessing this resource.
+    at Array.AuthSocket (/home/tushar/Desktop/Testing/src/middleware/auth.socket.middleware.js:13:20)
+    at run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:130:19)
+    at Namespace.run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:141:9)
+    at Namespace._add (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:218:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 401,
+  data: undefined
+}
+[2024-12-19T16:40:59.420] [ERROR] auth.socket.middleware - HTTPException [Error]: Unauthorized. You must authenticate before accessing this resource.
+    at Array.AuthSocket (/home/tushar/Desktop/Testing/src/middleware/auth.socket.middleware.js:13:20)
+    at run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:130:19)
+    at Namespace.run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:141:9)
+    at Namespace._add (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:218:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 401,
+  data: undefined
+}
+[2024-12-19T16:40:59.449] [ERROR] auth.socket.middleware - HTTPException [Error]: Unauthorized. You must authenticate before accessing this resource.
+    at Array.AuthSocket (/home/tushar/Desktop/Testing/src/middleware/auth.socket.middleware.js:13:20)
+    at run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:130:19)
+    at Namespace.run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:141:9)
+    at Namespace._add (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:218:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 401,
+  data: undefined
+}
+[2024-12-19T17:38:36.847] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 500, Message:: req is not defined
+[2024-12-19T17:48:09.933] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 500, Message:: RedisClient.set is not a function
+[2024-12-19T17:58:58.495] [ERROR] node.mailer - Invalid Email Purpose
+[2024-12-19T17:58:58.588] [ERROR] node.mailer - Error in SendMail Error: getaddrinfo EAI_AGAIN gmail
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+  errno: -3001,
+  code: 'EDNS',
+  syscall: 'getaddrinfo',
+  hostname: 'gmail',
+  command: 'CONN'
+}
+[2024-12-19T18:01:22.463] [ERROR] node.mailer - Invalid Email Purpose
+[2024-12-19T18:01:24.851] [ERROR] node.mailer - Error in SendMail Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-219dc9d4458sm11244015ad.114 - gsmtp
+    at SMTPConnection._formatError (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:807:19)
+    at SMTPConnection._actionAUTHComplete (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:1586:34)
+    at SMTPConnection.<anonymous> (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:554:26)
+    at SMTPConnection._processResponse (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:991:20)
+    at SMTPConnection._onData (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:772:14)
+    at SMTPConnection._onSocketData (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-219dc9d4458sm11244015ad.114 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2024-12-19T18:03:17.603] [ERROR] node.mailer - Invalid Email Purpose
+[2024-12-19T18:03:19.896] [ERROR] node.mailer - Error in SendMail Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-72aad816171sm1178530b3a.10 - gsmtp
+    at SMTPConnection._formatError (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:807:19)
+    at SMTPConnection._actionAUTHComplete (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:1586:34)
+    at SMTPConnection.<anonymous> (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:554:26)
+    at SMTPConnection._processResponse (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:991:20)
+    at SMTPConnection._onData (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:772:14)
+    at SMTPConnection._onSocketData (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-72aad816171sm1178530b3a.10 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2024-12-19T18:12:31.575] [ERROR] node.mailer - Invalid Email Purpose
+[2024-12-19T18:12:34.092] [ERROR] node.mailer - Error in SendMail Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2f4478d577csm1264568a91.53 - gsmtp
+    at SMTPConnection._formatError (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:807:19)
+    at SMTPConnection._actionAUTHComplete (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:1586:34)
+    at SMTPConnection.<anonymous> (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:554:26)
+    at SMTPConnection._processResponse (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:991:20)
+    at SMTPConnection._onData (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:772:14)
+    at SMTPConnection._onSocketData (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2f4478d577csm1264568a91.53 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2024-12-19T22:38:12.135] [ERROR] middleware - [GET] /api/v1/auth/2fa-generate-secret >> StatusCode:: 400, Message:: Expected double-quoted property name in JSON at position 45
+[2024-12-19T22:38:14.856] [ERROR] middleware - [GET] /api/v1/auth/2fa-generate-secret >> StatusCode:: 400, Message:: Expected double-quoted property name in JSON at position 45

@@ -24,11 +24,41 @@ class AuthController {
   async loginUp(req, res, next) {
     try {
       const data = await this.authService.loginUp(req.body);
-      console.log("data",data);
       res.
-      status(200)
+        status(200)
       .json({message:"Successfully login", data:data});
     } catch (error) {
+      next(error);
+    }
+  }
+
+  async forgetpassword(req, res, next){
+    try{
+        const mailSend = await this.authService.forgetPassword(req.body); 
+
+
+    }catch(error){
+      next(error)
+    }
+  }
+
+  async generateSecret(req,res, next){ 
+    try{
+      const result = await this.authService.generatesecret(req.body.email);
+      return res.status(200).json({message:"QR code generated Sucessfully", data:result})
+    }catch(error){
+      next(error);
+    }
+  }
+
+  async verifySecret(req,res, next){
+    try{
+        const result = await this.authService.verifysecret(req.body);
+        const message = result ? 'Verification successful' : 'Verification failed';
+        return res.status(200).json({message:message, data:{
+          sucess:result
+        }})
+    }catch(error){
       next(error);
     }
   }

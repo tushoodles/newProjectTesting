@@ -3,7 +3,13 @@ const User = require("../models/user.schema.js");
 const { v4: uuidv4 } = require("uuid");
 const { HTTPException } = require("../error/errorHTTPException.js");
 const errorCodes = require("../error/error.Types.js");
-const { validatelogin } = require("../validator/auth.validator.js");
+const { validatelogin, validemail } = require("../validator/auth.validator.js");
+const { SendMail } = require("../utils/mail.handler.js");
+const generateOTP = require("../utils/otp.handler.js");
+const authUser = require("../models/2fa.secret");
+const speakeasy = require("speakeasy");
+const QRCode = require("qrcode");
+
 
 class AuthService {
   constructor() {
@@ -62,18 +68,81 @@ class AuthService {
       }
 
       const passwordMatched = userexist.passwordMatched(logindetail.password);
-        if(!passwordMatched){
+      if (!passwordMatched) {
         throw new HTTPException(
-            errorCodes.UNAUTHORIZED.status,
-            errorCodes.UNAUTHORIZED.message[0]
-          );
-        }
-        const token = userexist.generateAuthToken();
-        const data = {
-            token : token,
-            success:true
-        }
-        return data;
+          errorCodes.UNAUTHORIZED.status,
+          errorCodes.UNAUTHORIZED.message[0]
+        );
+      }
+      const token = userexist.generateAuthToken();
+      const data = {
+        token: token,
+        success: true,
+      };
+      return data;
+    } catch (error) {
+      throw error;
+    }
+  }
+
+  async forgetPassword(forgetdetail) {
+    try {
+      const { error } = validemail(forgetdetail);
+
+      if (error) {
+        throw new HTTPException(
+          errorCodes.UNAUTHORIZED.status,
+          error.details[0].message
+        );
+      }
+
+      const findUser = await User.findOne({ email: forgetdetail.email });
+      if (!findUser) {
+        throw new HTTPException(
+          errorCodes.NOT_FOUND.status,
+          error.NOT_FOUND.message
+        );
+      }
+
+      const otp = generateOTP();
+      console.log("findUser", findUser.email);
+      RedisClient.set(findUser.email, otp, 180)
+        .then(() => console.log("OTP stored successfully"))
+        .catch((err) => console.error("Error storing OTP:", err));
+
+      console.log("otp", otp);
+      await SendMail(findUser.email, otp, "forgotpassword");
+    } catch (error) {
+      throw error;
+    }
+  }
+
+  async generatesecret(detail) {
+    try {
+      const secret = speakeasy.generateSecret({ length: 20 });
+      const sec = secret.base32;
+      const result = await authUser.findOneAndUpdate(
+        { email: detail },
+        { email: detail, twoFASecret: sec },
+        { upsert: true, new: true }
+      );
+      const qrcode = await QRCode.toDataURL(secret.otpauth_url);
+      return { sec, qrcode };
+    } catch (error) {
+      throw error;
+    }
+  }
+
+  async verifysecret(detail) {
+    try {
+      const {email , token} = detail;
+      const findUser = await authUser.findOne({email:email});
+      const verified = speakeasy.totp.verify({
+        secret: findUser.twoFASecret,
+        encoding: "base32",
+        token
+      });
+      return verified;
     } catch (error) {
       throw error;
     }

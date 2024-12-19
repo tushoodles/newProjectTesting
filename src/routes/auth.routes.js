@@ -8,9 +8,8 @@ class AuthRoutes {
     this.authController = new AuthController();
     this.initializeRoutes();
   }
-  
-  initializeRoutes() {
 
+  initializeRoutes() {
     this.router.post(
       `${this.path}/signup`,
       this.authController.signUp.bind(this.authController)
@@ -19,8 +18,22 @@ class AuthRoutes {
     this.router.post(
       `${this.path}/login`,
       this.authController.loginUp.bind(this.authController)
-    )
+    );
 
+    this.router.get(
+      `${this.path}/forget-password`,
+      this.authController.forgetpassword.bind(this.authController)
+    );
+
+    this.router.post(
+      `${this.path}/2fa-generate-secret`,
+      this.authController.generateSecret.bind(this.authController)
+    );
+
+    this.router.get(
+      `${this.path}/verify-token`,
+      this.authController.verifySecret.bind(this.authController)
+    )
   }
 }
 

@@ -2410,3 +2410,640 @@
 [2024-12-19T16:08:59.684] [INFO] redis_service - Redis Connection Established
 [2024-12-19T16:08:59.701] [INFO] app - DataBase Connected Successfully
 [2024-12-19T16:08:59.718] [INFO] redis_service - Redis is Ready
+[2024-12-19T16:23:35.073] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T16:23:35.079] [INFO] app - Server is Running on Port 6060
+[2024-12-19T16:23:35.098] [INFO] redis_service - Redis Connection Established
+[2024-12-19T16:23:35.113] [INFO] app - DataBase Connected Successfully
+[2024-12-19T16:23:35.126] [INFO] redis_service - Redis is Ready
+[2024-12-19T16:25:09.434] [INFO] socket-service - New User Connected PRXViIVDEMvkcI2-AAAB
+[2024-12-19T16:25:09.435] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-19T16:25:37.460] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T16:25:37.471] [INFO] app - Server is Running on Port 6060
+[2024-12-19T16:25:37.496] [INFO] redis_service - Redis Connection Established
+[2024-12-19T16:25:37.512] [INFO] app - DataBase Connected Successfully
+[2024-12-19T16:25:37.532] [INFO] redis_service - Redis is Ready
+[2024-12-19T16:25:39.109] [INFO] socket-service - New User Connected AoXygb7dEP7QPw4VAAAB
+[2024-12-19T16:25:39.109] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-19T16:26:36.194] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T16:26:36.208] [INFO] app - Server is Running on Port 6060
+[2024-12-19T16:26:36.242] [INFO] redis_service - Redis Connection Established
+[2024-12-19T16:26:36.257] [INFO] app - DataBase Connected Successfully
+[2024-12-19T16:26:36.270] [INFO] redis_service - Redis is Ready
+[2024-12-19T16:26:38.231] [INFO] socket-service - New User Connected AVgMhqHSjadap9_9AAAB
+[2024-12-19T16:26:38.232] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-19T16:27:10.210] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T16:27:10.224] [INFO] app - Server is Running on Port 6060
+[2024-12-19T16:27:10.254] [INFO] redis_service - Redis Connection Established
+[2024-12-19T16:27:10.270] [INFO] app - DataBase Connected Successfully
+[2024-12-19T16:27:10.286] [INFO] redis_service - Redis is Ready
+[2024-12-19T16:27:11.062] [INFO] socket-service - New User Connected OrZxqPxqLopYXOQtAAAB
+[2024-12-19T16:27:11.063] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-19T16:27:12.914] [INFO] socket-service - New User Connected m4DwceyaoJER5Vb4AAAD
+[2024-12-19T16:27:12.915] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-19T16:27:45.672] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T16:27:45.685] [INFO] app - Server is Running on Port 6060
+[2024-12-19T16:27:45.707] [INFO] redis_service - Redis Connection Established
+[2024-12-19T16:27:45.724] [INFO] app - DataBase Connected Successfully
+[2024-12-19T16:27:45.739] [INFO] redis_service - Redis is Ready
+[2024-12-19T16:27:45.854] [INFO] socket-service - New User Connected nx-rh1Df16syXGuFAAAB
+[2024-12-19T16:27:45.855] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-19T16:27:46.842] [INFO] socket-service - New User Connected EqLQG8Sk-TJIgyGnAAAD
+[2024-12-19T16:27:46.843] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-19T16:28:26.487] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T16:28:26.499] [INFO] app - Server is Running on Port 6060
+[2024-12-19T16:28:26.526] [INFO] redis_service - Redis Connection Established
+[2024-12-19T16:28:26.543] [INFO] app - DataBase Connected Successfully
+[2024-12-19T16:28:26.560] [INFO] redis_service - Redis is Ready
+[2024-12-19T16:28:27.466] [INFO] socket-service - New User Connected wzsXjpd10yR8wsExAAAC
+[2024-12-19T16:28:27.467] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-19T16:28:27.524] [INFO] socket-service - New User Connected EvggAVnLTtWu1C1jAAAD
+[2024-12-19T16:28:27.525] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-19T16:28:33.681] [INFO] socket-service - New User Connected d2MVjFOvfn155LmmAAAF
+[2024-12-19T16:28:33.681] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-19T16:28:37.244] [INFO] socket-service - New User Connected Wvjm_ptiQt2gkPtDAAAH
+[2024-12-19T16:28:37.245] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-19T16:28:57.896] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T16:28:57.905] [INFO] app - Server is Running on Port 6060
+[2024-12-19T16:28:57.928] [INFO] redis_service - Redis Connection Established
+[2024-12-19T16:28:57.944] [INFO] app - DataBase Connected Successfully
+[2024-12-19T16:28:57.959] [INFO] redis_service - Redis is Ready
+[2024-12-19T16:28:59.166] [INFO] socket-service - New User Connected D8HF1mWokF-KHQtLAAAB
+[2024-12-19T16:28:59.477] [INFO] socket-service - New User Connected FODoNmcg2nPeYlaZAAAE
+[2024-12-19T16:28:59.515] [INFO] socket-service - New User Connected LCANEShMl2Fg6gHyAAAF
+[2024-12-19T16:29:04.246] [INFO] socket-service - New User Connected Y1xQBYt0vDbNREftAAAH
+[2024-12-19T16:35:56.329] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T16:35:56.337] [INFO] app - Server is Running on Port 6060
+[2024-12-19T16:35:56.355] [INFO] redis_service - Redis Connection Established
+[2024-12-19T16:35:56.369] [INFO] app - DataBase Connected Successfully
+[2024-12-19T16:35:56.385] [INFO] redis_service - Redis is Ready
+[2024-12-19T16:35:58.492] [INFO] socket-service - New User Connected zmgUp_dIyh8vK9jqAAAB
+[2024-12-19T16:36:00.305] [INFO] socket-service - New User Connected c2ZStrpvo0bEeP8qAAAD
+[2024-12-19T16:36:00.452] [INFO] socket-service - New User Connected 611bloHexnmbSpmXAAAF
+[2024-12-19T16:36:01.404] [INFO] socket-service - New User Connected KgaqpEoirA0q1Vc8AAAH
+[2024-12-19T16:36:13.314] [INFO] socket-service - New User Connected S9ii4j0jaItlC1qIAAAJ
+[2024-12-19T16:36:58.265] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T16:36:58.275] [INFO] app - Server is Running on Port 6060
+[2024-12-19T16:36:58.295] [INFO] redis_service - Redis Connection Established
+[2024-12-19T16:36:58.314] [INFO] app - DataBase Connected Successfully
+[2024-12-19T16:36:58.334] [INFO] redis_service - Redis is Ready
+[2024-12-19T16:36:58.484] [INFO] socket-service - New User Connected MTXDtF7Kz4CI9T0tAAAB
+[2024-12-19T16:37:00.833] [INFO] socket-service - New User Connected USg2N0mgCGtS3ytdAAAD
+[2024-12-19T16:37:00.960] [INFO] socket-service - New User Connected 8NDc0RUVmae4sPUIAAAF
+[2024-12-19T16:37:01.036] [INFO] socket-service - New User Connected cQgpPAdMyMp8fUdOAAAH
+[2024-12-19T16:37:02.260] [INFO] socket-service - New User Connected hKLmP_IcnQ8LZAgHAAAJ
+[2024-12-19T16:40:54.021] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T16:40:54.035] [INFO] app - Server is Running on Port 6060
+[2024-12-19T16:40:54.066] [INFO] redis_service - Redis Connection Established
+[2024-12-19T16:40:54.089] [INFO] app - DataBase Connected Successfully
+[2024-12-19T16:40:54.111] [INFO] redis_service - Redis is Ready
+[2024-12-19T16:40:56.516] [ERROR] auth.socket.middleware - HTTPException [Error]: Unauthorized. You must authenticate before accessing this resource.
+    at Array.AuthSocket (/home/tushar/Desktop/Testing/src/middleware/auth.socket.middleware.js:13:20)
+    at run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:130:19)
+    at Namespace.run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:141:9)
+    at Namespace._add (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:218:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 401,
+  data: undefined
+}
+[2024-12-19T16:40:56.534] [ERROR] auth.socket.middleware - HTTPException [Error]: Unauthorized. You must authenticate before accessing this resource.
+    at Array.AuthSocket (/home/tushar/Desktop/Testing/src/middleware/auth.socket.middleware.js:13:20)
+    at run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:130:19)
+    at Namespace.run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:141:9)
+    at Namespace._add (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:218:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 401,
+  data: undefined
+}
+[2024-12-19T16:40:58.416] [ERROR] auth.socket.middleware - HTTPException [Error]: Unauthorized. You must authenticate before accessing this resource.
+    at Array.AuthSocket (/home/tushar/Desktop/Testing/src/middleware/auth.socket.middleware.js:13:20)
+    at run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:130:19)
+    at Namespace.run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:141:9)
+    at Namespace._add (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:218:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 401,
+  data: undefined
+}
+[2024-12-19T16:40:59.420] [ERROR] auth.socket.middleware - HTTPException [Error]: Unauthorized. You must authenticate before accessing this resource.
+    at Array.AuthSocket (/home/tushar/Desktop/Testing/src/middleware/auth.socket.middleware.js:13:20)
+    at run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:130:19)
+    at Namespace.run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:141:9)
+    at Namespace._add (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:218:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 401,
+  data: undefined
+}
+[2024-12-19T16:40:59.449] [ERROR] auth.socket.middleware - HTTPException [Error]: Unauthorized. You must authenticate before accessing this resource.
+    at Array.AuthSocket (/home/tushar/Desktop/Testing/src/middleware/auth.socket.middleware.js:13:20)
+    at run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:130:19)
+    at Namespace.run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:141:9)
+    at Namespace._add (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:218:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 401,
+  data: undefined
+}
+[2024-12-19T16:41:16.765] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T16:41:16.777] [INFO] app - Server is Running on Port 6060
+[2024-12-19T16:41:16.811] [INFO] redis_service - Redis Connection Established
+[2024-12-19T16:41:16.829] [INFO] app - DataBase Connected Successfully
+[2024-12-19T16:41:16.849] [INFO] redis_service - Redis is Ready
+[2024-12-19T16:42:32.869] [INFO] socket-service - New User Connected CknRJuvXF2ZmRJ3zAAAB
+[2024-12-19T16:42:53.108] [INFO] socket-service - New User Connected jCl2oXrivlac7rdxAAAD
+[2024-12-19T16:44:50.911] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T16:44:50.928] [INFO] app - Server is Running on Port 6060
+[2024-12-19T16:44:50.961] [INFO] redis_service - Redis Connection Established
+[2024-12-19T16:44:50.977] [INFO] app - DataBase Connected Successfully
+[2024-12-19T16:44:50.994] [INFO] redis_service - Redis is Ready
+[2024-12-19T16:44:52.956] [INFO] socket-service - New User Connected AWYolvMB8wwoNlCSAAAB
+[2024-12-19T16:44:53.404] [INFO] socket-service - New User Connected Ydz5PtvWyYerv3PlAAAD
+[2024-12-19T17:32:58.381] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T17:32:58.387] [INFO] app - Server is Running on Port 6060
+[2024-12-19T17:32:58.406] [INFO] redis_service - Redis Connection Established
+[2024-12-19T17:32:58.421] [INFO] app - DataBase Connected Successfully
+[2024-12-19T17:32:58.434] [INFO] redis_service - Redis is Ready
+[2024-12-19T17:33:00.409] [INFO] socket-service - New User Connected UJUV3HUf92rTxw5PAAAB
+[2024-12-19T17:33:03.398] [INFO] socket-service - New User Connected kwnfdwzvNCYqRgWnAAAD
+[2024-12-19T17:37:09.306] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T17:37:09.319] [INFO] app - Server is Running on Port 6060
+[2024-12-19T17:37:09.340] [INFO] redis_service - Redis Connection Established
+[2024-12-19T17:37:09.356] [INFO] app - DataBase Connected Successfully
+[2024-12-19T17:37:09.383] [INFO] redis_service - Redis is Ready
+[2024-12-19T17:37:09.538] [INFO] socket-service - New User Connected jHhoARqQta5IGWS_AAAC
+[2024-12-19T17:37:09.561] [INFO] socket-service - New User Connected Yz3rmcyW0dwWlW-zAAAD
+[2024-12-19T17:38:23.642] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T17:38:23.651] [INFO] app - Server is Running on Port 6060
+[2024-12-19T17:38:23.673] [INFO] redis_service - Redis Connection Established
+[2024-12-19T17:38:23.688] [INFO] app - DataBase Connected Successfully
+[2024-12-19T17:38:23.702] [INFO] redis_service - Redis is Ready
+[2024-12-19T17:38:24.438] [INFO] socket-service - New User Connected 1xRCXxLfzed1iNKWAAAB
+[2024-12-19T17:38:25.420] [INFO] socket-service - New User Connected HaUNr-MtVgdXVPZvAAAD
+[2024-12-19T17:38:36.847] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 500, Message:: req is not defined
+[2024-12-19T17:39:28.604] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T17:39:28.613] [INFO] app - Server is Running on Port 6060
+[2024-12-19T17:39:28.633] [INFO] redis_service - Redis Connection Established
+[2024-12-19T17:39:28.649] [INFO] app - DataBase Connected Successfully
+[2024-12-19T17:39:28.664] [INFO] redis_service - Redis is Ready
+[2024-12-19T17:39:29.499] [INFO] socket-service - New User Connected bxv3V7pT_EuiNsbBAAAC
+[2024-12-19T17:39:29.540] [INFO] socket-service - New User Connected r4hrwb3n4U0TZrpjAAAD
+[2024-12-19T17:41:43.854] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T17:41:43.862] [INFO] app - Server is Running on Port 6060
+[2024-12-19T17:41:43.886] [INFO] redis_service - Redis Connection Established
+[2024-12-19T17:41:43.902] [INFO] app - DataBase Connected Successfully
+[2024-12-19T17:41:43.920] [INFO] redis_service - Redis is Ready
+[2024-12-19T17:41:44.409] [INFO] socket-service - New User Connected xtR3f1sYkmhFqfSPAAAB
+[2024-12-19T17:41:46.403] [INFO] socket-service - New User Connected gsdB-91M_LcWcEr1AAAD
+[2024-12-19T17:44:00.770] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T17:44:00.780] [INFO] app - Server is Running on Port 6060
+[2024-12-19T17:44:00.803] [INFO] redis_service - Redis Connection Established
+[2024-12-19T17:44:00.818] [INFO] app - DataBase Connected Successfully
+[2024-12-19T17:44:00.834] [INFO] redis_service - Redis is Ready
+[2024-12-19T17:44:01.424] [INFO] socket-service - New User Connected R42FfVBm99EGxySYAAAB
+[2024-12-19T17:44:02.545] [INFO] socket-service - New User Connected umA-qUPwOswt3E_2AAAD
+[2024-12-19T17:44:18.183] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T17:44:18.189] [INFO] app - Server is Running on Port 6060
+[2024-12-19T17:44:18.216] [INFO] redis_service - Redis Connection Established
+[2024-12-19T17:44:18.235] [INFO] app - DataBase Connected Successfully
+[2024-12-19T17:44:18.254] [INFO] redis_service - Redis is Ready
+[2024-12-19T17:44:18.452] [INFO] socket-service - New User Connected xU6IAba0sEQ3KHJAAAAB
+[2024-12-19T17:44:19.414] [INFO] socket-service - New User Connected pJ_f-fxs050ghJBNAAAD
+[2024-12-19T17:44:47.792] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T17:44:47.802] [INFO] app - Server is Running on Port 6060
+[2024-12-19T17:44:47.827] [INFO] redis_service - Redis Connection Established
+[2024-12-19T17:44:47.846] [INFO] app - DataBase Connected Successfully
+[2024-12-19T17:44:47.864] [INFO] redis_service - Redis is Ready
+[2024-12-19T17:44:48.430] [INFO] socket-service - New User Connected ukOLXgV_z71MjauuAAAB
+[2024-12-19T17:44:49.427] [INFO] socket-service - New User Connected x90iEL2_5Ec-x9qlAAAD
+[2024-12-19T17:47:18.705] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T17:47:18.717] [INFO] app - Server is Running on Port 6060
+[2024-12-19T17:47:18.742] [INFO] redis_service - Redis Connection Established
+[2024-12-19T17:47:18.759] [INFO] app - DataBase Connected Successfully
+[2024-12-19T17:47:18.777] [INFO] redis_service - Redis is Ready
+[2024-12-19T17:47:20.410] [INFO] socket-service - New User Connected PutXQKscgUrsh5CuAAAB
+[2024-12-19T17:47:21.610] [INFO] socket-service - New User Connected 3m4Tv3Y2G6sxFRE-AAAD
+[2024-12-19T17:48:04.840] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T17:48:04.848] [INFO] app - Server is Running on Port 6060
+[2024-12-19T17:48:04.869] [INFO] redis_service - Redis Connection Established
+[2024-12-19T17:48:04.884] [INFO] app - DataBase Connected Successfully
+[2024-12-19T17:48:04.899] [INFO] redis_service - Redis is Ready
+[2024-12-19T17:48:06.475] [INFO] socket-service - New User Connected HewoaQT88obCdC6BAAAC
+[2024-12-19T17:48:06.482] [INFO] socket-service - New User Connected FpEB9PhS8_DovlGvAAAD
+[2024-12-19T17:48:09.933] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 500, Message:: RedisClient.set is not a function
+[2024-12-19T17:50:35.519] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T17:50:35.525] [INFO] app - Server is Running on Port 6060
+[2024-12-19T17:50:35.551] [INFO] redis_service - Redis Connection Established
+[2024-12-19T17:50:35.564] [INFO] app - DataBase Connected Successfully
+[2024-12-19T17:50:35.579] [INFO] redis_service - Redis is Ready
+[2024-12-19T17:50:36.415] [INFO] socket-service - New User Connected J8car6gxQRoBYRMyAAAB
+[2024-12-19T17:50:37.384] [INFO] socket-service - New User Connected iLwlD9qZyjGo1KIEAAAD
+[2024-12-19T17:51:57.137] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T17:51:57.144] [INFO] app - Server is Running on Port 6060
+[2024-12-19T17:51:57.165] [INFO] redis_service - Redis Connection Established
+[2024-12-19T17:51:57.181] [INFO] app - DataBase Connected Successfully
+[2024-12-19T17:51:57.195] [INFO] redis_service - Redis is Ready
+[2024-12-19T17:51:57.444] [INFO] socket-service - New User Connected CcOnNgxqNPYtWeh8AAAC
+[2024-12-19T17:51:57.450] [INFO] socket-service - New User Connected n3T4isttE93SuTGtAAAD
+[2024-12-19T17:52:27.567] [INFO] redis_service - Key undefined set successfully with TTL of 180 seconds
+[2024-12-19T17:54:09.726] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T17:54:09.735] [INFO] app - Server is Running on Port 6060
+[2024-12-19T17:54:09.757] [INFO] redis_service - Redis Connection Established
+[2024-12-19T17:54:09.780] [INFO] app - DataBase Connected Successfully
+[2024-12-19T17:54:09.800] [INFO] redis_service - Redis is Ready
+[2024-12-19T17:54:13.296] [INFO] redis_service - Key undefined set successfully with TTL of 180 seconds
+[2024-12-19T17:54:20.758] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T17:54:20.772] [INFO] app - Server is Running on Port 6060
+[2024-12-19T17:54:20.799] [INFO] redis_service - Redis Connection Established
+[2024-12-19T17:54:20.821] [INFO] app - DataBase Connected Successfully
+[2024-12-19T17:54:20.840] [INFO] redis_service - Redis is Ready
+[2024-12-19T17:54:31.257] [INFO] redis_service - Key undefined set successfully with TTL of 180 seconds
+[2024-12-19T17:54:45.008] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T17:54:45.017] [INFO] app - Server is Running on Port 6060
+[2024-12-19T17:54:45.037] [INFO] redis_service - Redis Connection Established
+[2024-12-19T17:54:45.052] [INFO] app - DataBase Connected Successfully
+[2024-12-19T17:54:45.066] [INFO] redis_service - Redis is Ready
+[2024-12-19T17:54:49.454] [INFO] redis_service - Key tusarsrivastava636@gmail.com set successfully with TTL of 180 seconds
+[2024-12-19T17:57:52.035] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T17:57:52.042] [INFO] app - Server is Running on Port 6060
+[2024-12-19T17:57:52.062] [INFO] redis_service - Redis Connection Established
+[2024-12-19T17:57:52.076] [INFO] app - DataBase Connected Successfully
+[2024-12-19T17:57:52.090] [INFO] redis_service - Redis is Ready
+[2024-12-19T17:58:58.495] [ERROR] node.mailer - Invalid Email Purpose
+[2024-12-19T17:58:58.506] [INFO] redis_service - Key tusarsrivastava636@gmail.com set successfully with TTL of 180 seconds
+[2024-12-19T17:58:58.588] [ERROR] node.mailer - Error in SendMail Error: getaddrinfo EAI_AGAIN gmail
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+  errno: -3001,
+  code: 'EDNS',
+  syscall: 'getaddrinfo',
+  hostname: 'gmail',
+  command: 'CONN'
+}
+[2024-12-19T18:01:17.718] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T18:01:17.726] [INFO] app - Server is Running on Port 6060
+[2024-12-19T18:01:17.745] [INFO] redis_service - Redis Connection Established
+[2024-12-19T18:01:17.760] [INFO] app - DataBase Connected Successfully
+[2024-12-19T18:01:17.774] [INFO] redis_service - Redis is Ready
+[2024-12-19T18:01:22.463] [ERROR] node.mailer - Invalid Email Purpose
+[2024-12-19T18:01:22.475] [INFO] redis_service - Key tusarsrivastava636@gmail.com set successfully with TTL of 180 seconds
+[2024-12-19T18:01:24.851] [ERROR] node.mailer - Error in SendMail Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-219dc9d4458sm11244015ad.114 - gsmtp
+    at SMTPConnection._formatError (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:807:19)
+    at SMTPConnection._actionAUTHComplete (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:1586:34)
+    at SMTPConnection.<anonymous> (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:554:26)
+    at SMTPConnection._processResponse (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:991:20)
+    at SMTPConnection._onData (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:772:14)
+    at SMTPConnection._onSocketData (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-219dc9d4458sm11244015ad.114 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2024-12-19T18:03:09.670] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T18:03:09.679] [INFO] app - Server is Running on Port 6060
+[2024-12-19T18:03:09.703] [INFO] redis_service - Redis Connection Established
+[2024-12-19T18:03:09.719] [INFO] app - DataBase Connected Successfully
+[2024-12-19T18:03:09.734] [INFO] redis_service - Redis is Ready
+[2024-12-19T18:03:17.603] [ERROR] node.mailer - Invalid Email Purpose
+[2024-12-19T18:03:17.616] [INFO] redis_service - Key tusarsrivastava636@gmail.com set successfully with TTL of 180 seconds
+[2024-12-19T18:03:19.896] [ERROR] node.mailer - Error in SendMail Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-72aad816171sm1178530b3a.10 - gsmtp
+    at SMTPConnection._formatError (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:807:19)
+    at SMTPConnection._actionAUTHComplete (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:1586:34)
+    at SMTPConnection.<anonymous> (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:554:26)
+    at SMTPConnection._processResponse (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:991:20)
+    at SMTPConnection._onData (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:772:14)
+    at SMTPConnection._onSocketData (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-72aad816171sm1178530b3a.10 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2024-12-19T18:04:36.543] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T18:04:36.550] [INFO] app - Server is Running on Port 6060
+[2024-12-19T18:04:36.566] [INFO] redis_service - Redis Connection Established
+[2024-12-19T18:04:36.579] [INFO] app - DataBase Connected Successfully
+[2024-12-19T18:04:36.594] [INFO] redis_service - Redis is Ready
+[2024-12-19T18:06:58.910] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T18:06:58.916] [INFO] app - Server is Running on Port 6060
+[2024-12-19T18:06:58.946] [INFO] redis_service - Redis Connection Established
+[2024-12-19T18:06:58.968] [INFO] app - DataBase Connected Successfully
+[2024-12-19T18:06:58.989] [INFO] redis_service - Redis is Ready
+[2024-12-19T18:12:31.575] [ERROR] node.mailer - Invalid Email Purpose
+[2024-12-19T18:12:31.588] [INFO] redis_service - Key tusarsrivastava636@gmail.com set successfully with TTL of 180 seconds
+[2024-12-19T18:12:34.092] [ERROR] node.mailer - Error in SendMail Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2f4478d577csm1264568a91.53 - gsmtp
+    at SMTPConnection._formatError (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:807:19)
+    at SMTPConnection._actionAUTHComplete (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:1586:34)
+    at SMTPConnection.<anonymous> (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:554:26)
+    at SMTPConnection._processResponse (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:991:20)
+    at SMTPConnection._onData (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:772:14)
+    at SMTPConnection._onSocketData (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)
+    at TLSSocket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2f4478d577csm1264568a91.53 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2024-12-19T18:37:03.558] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T18:37:03.577] [INFO] app - Server is Running on Port 6060
+[2024-12-19T18:37:03.602] [INFO] redis_service - Redis Connection Established
+[2024-12-19T18:37:03.623] [INFO] app - DataBase Connected Successfully
+[2024-12-19T18:37:03.642] [INFO] redis_service - Redis is Ready
+[2024-12-19T18:41:28.274] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T18:41:28.283] [INFO] app - Server is Running on Port 6060
+[2024-12-19T18:41:28.313] [INFO] redis_service - Redis Connection Established
+[2024-12-19T18:41:28.336] [INFO] app - DataBase Connected Successfully
+[2024-12-19T18:41:28.357] [INFO] redis_service - Redis is Ready
+[2024-12-19T18:42:25.634] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T18:42:25.639] [INFO] app - Server is Running on Port 6060
+[2024-12-19T18:42:25.666] [INFO] redis_service - Redis Connection Established
+[2024-12-19T18:42:25.691] [INFO] app - DataBase Connected Successfully
+[2024-12-19T18:42:25.707] [INFO] redis_service - Redis is Ready
+[2024-12-19T19:07:25.347] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T19:07:25.355] [INFO] app - Server is Running on Port 6060
+[2024-12-19T19:07:25.376] [INFO] redis_service - Redis Connection Established
+[2024-12-19T19:07:25.391] [INFO] app - DataBase Connected Successfully
+[2024-12-19T19:07:25.404] [INFO] redis_service - Redis is Ready
+[2024-12-19T19:08:40.997] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T19:08:41.013] [INFO] app - Server is Running on Port 6060
+[2024-12-19T19:08:41.054] [INFO] redis_service - Redis Connection Established
+[2024-12-19T19:08:41.071] [INFO] app - DataBase Connected Successfully
+[2024-12-19T19:08:41.086] [INFO] redis_service - Redis is Ready
+[2024-12-19T20:56:23.117] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T20:56:23.128] [INFO] app - Server is Running on Port 6060
+[2024-12-19T20:56:23.153] [INFO] redis_service - Redis Connection Established
+[2024-12-19T20:56:23.169] [INFO] app - DataBase Connected Successfully
+[2024-12-19T20:56:23.185] [INFO] redis_service - Redis is Ready
+[2024-12-19T20:59:39.769] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T20:59:39.779] [INFO] app - Server is Running on Port 6060
+[2024-12-19T20:59:39.803] [INFO] redis_service - Redis Connection Established
+[2024-12-19T20:59:39.819] [INFO] app - DataBase Connected Successfully
+[2024-12-19T20:59:39.836] [INFO] redis_service - Redis is Ready
+[2024-12-19T20:59:53.797] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T20:59:53.806] [INFO] app - Server is Running on Port 6060
+[2024-12-19T20:59:53.827] [INFO] redis_service - Redis Connection Established
+[2024-12-19T20:59:53.843] [INFO] app - DataBase Connected Successfully
+[2024-12-19T20:59:53.858] [INFO] redis_service - Redis is Ready
+[2024-12-19T21:00:55.606] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T21:00:55.623] [INFO] app - Server is Running on Port 6060
+[2024-12-19T21:00:55.690] [INFO] redis_service - Redis Connection Established
+[2024-12-19T21:00:55.722] [INFO] app - DataBase Connected Successfully
+[2024-12-19T21:00:55.749] [INFO] redis_service - Redis is Ready
+[2024-12-19T21:01:26.299] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T21:01:26.308] [INFO] app - Server is Running on Port 6060
+[2024-12-19T21:01:26.335] [INFO] redis_service - Redis Connection Established
+[2024-12-19T21:01:26.355] [INFO] app - DataBase Connected Successfully
+[2024-12-19T21:01:26.374] [INFO] redis_service - Redis is Ready
+[2024-12-19T21:02:29.786] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T21:02:29.795] [INFO] app - Server is Running on Port 6060
+[2024-12-19T21:02:29.821] [INFO] redis_service - Redis Connection Established
+[2024-12-19T21:02:29.836] [INFO] app - DataBase Connected Successfully
+[2024-12-19T21:02:29.852] [INFO] redis_service - Redis is Ready
+[2024-12-19T21:02:55.027] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T21:02:55.036] [INFO] app - Server is Running on Port 6060
+[2024-12-19T21:02:55.059] [INFO] redis_service - Redis Connection Established
+[2024-12-19T21:02:55.077] [INFO] app - DataBase Connected Successfully
+[2024-12-19T21:02:55.093] [INFO] redis_service - Redis is Ready
+[2024-12-19T21:04:19.201] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T21:04:19.211] [INFO] app - Server is Running on Port 6060
+[2024-12-19T21:04:19.232] [INFO] redis_service - Redis Connection Established
+[2024-12-19T21:04:19.247] [INFO] app - DataBase Connected Successfully
+[2024-12-19T21:04:19.265] [INFO] redis_service - Redis is Ready
+[2024-12-19T21:38:50.483] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T21:38:50.491] [INFO] app - Server is Running on Port 6060
+[2024-12-19T21:38:50.513] [INFO] redis_service - Redis Connection Established
+[2024-12-19T21:38:50.530] [INFO] app - DataBase Connected Successfully
+[2024-12-19T21:38:50.546] [INFO] redis_service - Redis is Ready
+[2024-12-19T21:42:22.405] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T21:42:22.416] [INFO] app - Server is Running on Port 6060
+[2024-12-19T21:42:22.439] [INFO] redis_service - Redis Connection Established
+[2024-12-19T21:42:22.453] [INFO] app - DataBase Connected Successfully
+[2024-12-19T21:42:22.465] [INFO] redis_service - Redis is Ready
+[2024-12-19T21:43:54.915] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T21:43:54.924] [INFO] app - Server is Running on Port 6060
+[2024-12-19T21:43:54.945] [INFO] redis_service - Redis Connection Established
+[2024-12-19T21:43:54.962] [INFO] app - DataBase Connected Successfully
+[2024-12-19T21:43:54.977] [INFO] redis_service - Redis is Ready
+[2024-12-19T21:44:34.670] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T21:44:34.676] [INFO] app - Server is Running on Port 6060
+[2024-12-19T21:44:34.698] [INFO] redis_service - Redis Connection Established
+[2024-12-19T21:44:34.712] [INFO] app - DataBase Connected Successfully
+[2024-12-19T21:44:34.726] [INFO] redis_service - Redis is Ready
+[2024-12-19T21:45:31.373] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T21:45:31.382] [INFO] app - Server is Running on Port 6060
+[2024-12-19T21:45:31.405] [INFO] redis_service - Redis Connection Established
+[2024-12-19T21:45:31.421] [INFO] app - DataBase Connected Successfully
+[2024-12-19T21:45:31.439] [INFO] redis_service - Redis is Ready
+[2024-12-19T21:47:58.426] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T21:47:58.433] [INFO] app - Server is Running on Port 6060
+[2024-12-19T21:47:58.452] [INFO] redis_service - Redis Connection Established
+[2024-12-19T21:47:58.468] [INFO] app - DataBase Connected Successfully
+[2024-12-19T21:47:58.489] [INFO] redis_service - Redis is Ready
+[2024-12-19T21:49:53.397] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T21:49:53.404] [INFO] app - Server is Running on Port 6060
+[2024-12-19T21:49:53.421] [INFO] redis_service - Redis Connection Established
+[2024-12-19T21:49:53.434] [INFO] app - DataBase Connected Successfully
+[2024-12-19T21:49:53.450] [INFO] redis_service - Redis is Ready
+[2024-12-19T21:54:36.947] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T21:54:36.964] [INFO] app - Server is Running on Port 6060
+[2024-12-19T21:54:36.988] [INFO] redis_service - Redis Connection Established
+[2024-12-19T21:54:37.012] [INFO] app - DataBase Connected Successfully
+[2024-12-19T21:54:37.028] [INFO] redis_service - Redis is Ready
+[2024-12-19T21:55:11.376] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T21:55:11.386] [INFO] app - Server is Running on Port 6060
+[2024-12-19T21:55:11.425] [INFO] redis_service - Redis Connection Established
+[2024-12-19T21:55:11.444] [INFO] app - DataBase Connected Successfully
+[2024-12-19T21:55:11.463] [INFO] redis_service - Redis is Ready
+[2024-12-19T21:55:36.678] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T21:55:36.687] [INFO] app - Server is Running on Port 6060
+[2024-12-19T21:55:36.714] [INFO] redis_service - Redis Connection Established
+[2024-12-19T21:55:36.735] [INFO] app - DataBase Connected Successfully
+[2024-12-19T21:55:36.752] [INFO] redis_service - Redis is Ready
+[2024-12-19T21:57:31.174] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T21:57:31.183] [INFO] app - Server is Running on Port 6060
+[2024-12-19T21:57:31.203] [INFO] redis_service - Redis Connection Established
+[2024-12-19T21:57:31.218] [INFO] app - DataBase Connected Successfully
+[2024-12-19T21:57:31.235] [INFO] redis_service - Redis is Ready
+[2024-12-19T21:57:58.323] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T21:57:58.332] [INFO] app - Server is Running on Port 6060
+[2024-12-19T21:57:58.353] [INFO] redis_service - Redis Connection Established
+[2024-12-19T21:57:58.367] [INFO] app - DataBase Connected Successfully
+[2024-12-19T21:57:58.382] [INFO] redis_service - Redis is Ready
+[2024-12-19T21:58:12.621] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T21:58:12.633] [INFO] app - Server is Running on Port 6060
+[2024-12-19T21:58:12.651] [INFO] redis_service - Redis Connection Established
+[2024-12-19T21:58:12.669] [INFO] app - DataBase Connected Successfully
+[2024-12-19T21:58:12.682] [INFO] redis_service - Redis is Ready
+[2024-12-19T21:58:55.855] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T21:58:55.863] [INFO] app - Server is Running on Port 6060
+[2024-12-19T21:58:55.883] [INFO] redis_service - Redis Connection Established
+[2024-12-19T21:58:55.899] [INFO] app - DataBase Connected Successfully
+[2024-12-19T21:58:55.915] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:00:25.921] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:00:25.926] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:00:25.949] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:00:25.970] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:00:25.990] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:02:15.650] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:02:15.667] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:02:15.703] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:02:15.718] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:02:15.732] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:03:44.800] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:03:44.805] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:03:44.820] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:03:44.834] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:03:44.850] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:04:12.528] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:04:12.534] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:04:12.553] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:04:12.568] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:04:12.583] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:04:21.054] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:04:21.062] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:04:21.084] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:04:21.101] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:04:21.128] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:04:49.619] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:04:49.627] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:04:49.646] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:04:49.667] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:04:49.686] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:05:20.475] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:05:20.482] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:05:20.498] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:05:20.515] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:05:20.527] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:06:34.742] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:06:34.747] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:06:34.768] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:06:34.783] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:06:34.799] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:07:27.752] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:07:27.758] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:07:27.777] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:07:27.792] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:07:27.808] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:07:40.518] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:07:40.525] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:07:40.546] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:07:40.560] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:07:40.573] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:08:27.665] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:08:27.671] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:08:27.690] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:08:27.705] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:08:27.722] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:10:47.790] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:10:47.796] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:10:47.818] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:10:47.834] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:10:47.849] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:12:56.489] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:12:56.496] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:12:56.514] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:12:56.529] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:12:56.545] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:13:48.450] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:13:48.458] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:13:48.482] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:13:48.498] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:13:48.514] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:21:51.491] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:21:51.500] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:21:51.543] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:21:51.577] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:21:51.603] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:22:07.816] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:22:07.826] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:22:07.851] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:22:07.868] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:22:07.885] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:22:28.847] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:22:28.856] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:22:28.878] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:22:28.895] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:22:28.911] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:23:03.489] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:23:03.505] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:23:03.535] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:23:03.555] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:23:03.580] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:23:48.100] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:23:48.115] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:23:48.137] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:23:48.152] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:23:48.167] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:24:00.712] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:24:00.719] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:24:00.740] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:24:00.757] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:24:00.775] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:24:48.183] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:24:48.193] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:24:48.218] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:24:48.235] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:24:48.251] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:29:24.005] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:29:24.012] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:29:24.035] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:29:24.053] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:29:24.076] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:30:20.902] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:30:20.908] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:30:20.928] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:30:20.942] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:30:20.957] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:35:17.340] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:35:17.353] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:35:17.375] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:35:17.394] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:35:17.409] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:36:56.220] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:36:56.228] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:36:56.247] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:36:56.263] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:36:56.279] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:37:16.104] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:37:16.118] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:37:16.146] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:37:16.164] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:37:16.179] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:37:29.131] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:37:29.139] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:37:29.167] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:37:29.187] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:37:29.200] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:38:12.135] [ERROR] middleware - [GET] /api/v1/auth/2fa-generate-secret >> StatusCode:: 400, Message:: Expected double-quoted property name in JSON at position 45
+[2024-12-19T22:38:14.856] [ERROR] middleware - [GET] /api/v1/auth/2fa-generate-secret >> StatusCode:: 400, Message:: Expected double-quoted property name in JSON at position 45
+[2024-12-19T22:40:43.565] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:40:43.571] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:40:43.589] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:40:43.603] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:40:43.618] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:42:43.238] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:42:43.247] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:42:43.269] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:42:43.287] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:42:43.307] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:52:36.008] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:52:36.017] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:52:36.037] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:52:36.051] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:52:36.065] [INFO] redis_service - Redis is Ready
+[2024-12-19T22:54:53.012] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-19T22:54:53.021] [INFO] app - Server is Running on Port 6060
+[2024-12-19T22:54:53.044] [INFO] redis_service - Redis Connection Established
+[2024-12-19T22:54:53.061] [INFO] app - DataBase Connected Successfully
+[2024-12-19T22:54:53.077] [INFO] redis_service - Redis is Ready

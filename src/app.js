@@ -20,7 +20,7 @@ class App {
     this.initializemiddleware();
     this.initializeRoutes();
     this.initializeErrormiddleware();
-    this.initializeSchedular();
+    // this.initializeSchedular();
     this.initializeWebChatSocket();
   }
 
@@ -39,10 +39,10 @@ class App {
     })  
   }
 
-  async initializeSchedular(){
-    console.log("initializeSchedular");
-    await CronJobTaks();
-  }
+  // async initializeSchedular(){
+  //   console.log("initializeSchedular");
+  //   await CronJobTaks();
+  // }
 
   initializeRoutes() {
     this.routes.forEach((route) => {
