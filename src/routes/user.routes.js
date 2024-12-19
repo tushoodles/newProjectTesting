@@ -16,6 +16,11 @@ class UserRoutes {
         this.router.get(
             `${this.path}/getuserdetail`,this.userController.getdetail.bind(this.userController)
         )
+        this.router.post(
+            `${this.path}/connectwallet`, this.userController.connectUser.bind(this.userController)
+        )
+        
+
     }
 
     

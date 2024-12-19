@@ -16,6 +16,17 @@ class UserController{
             next(error)
         }
     }
+
+    async connectUser(req,res,next){
+        try{
+            const data = await this.userservice.connectUser();
+            return res
+            .status(200).
+            json({message:'User Connected Successfully', data:data})
+        }catch(error){
+            next(error)
+        }
+    }
 }
 
 module.exports = UserController

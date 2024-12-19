@@ -40,6 +40,7 @@ class App {
   }
 
   async initializeSchedular(){
+    console.log("initializeSchedular");
     await CronJobTaks();
   }
 

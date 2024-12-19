@@ -84,7 +84,7 @@
 [2024-12-17T11:26:48.542] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt malformed
 [2024-12-17T11:28:04.478] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt malformed
 [2024-12-17T11:28:39.232] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt malformed
-[2024-12-17T11:29:17.442] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt must be a string
+[2024-12-17T11:29:17.442] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Messagereq.body:: jwt must be a string
 [2024-12-17T11:29:38.431] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt must be a string
 [2024-12-17T11:31:13.036] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt must be a string
 [2024-12-17T11:33:49.555] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: jwt malformed

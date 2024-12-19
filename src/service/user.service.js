@@ -6,6 +6,7 @@ class UserService{
 
     }
 
+    
     async getuserdetail(email){
         try{
             const user = await User.findOne({email:email}).
@@ -18,6 +19,14 @@ class UserService{
 
             return user;
 
+        }catch(error){
+            throw(error)
+        }
+    }
+
+
+    async connectUser(){
+        try{
         }catch(error){
             throw(error)
         }
