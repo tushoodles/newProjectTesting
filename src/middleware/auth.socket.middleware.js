@@ -7,6 +7,7 @@ const User = require('../models/user.schema.js');
 
 const AuthSocket = async(socket , next)=>{
     try{
+        console.log("socket", socket);
         const socketHeader = socket.handshake.headers.authorization;
         console.log("socketHeader",socketHeader);
         if(!socketHeader){

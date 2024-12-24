@@ -8,7 +8,9 @@ const { SendMail } = require("../utils/mail.handler.js");
 const generateOTP = require("../utils/otp.handler.js");
 const authUser = require("../models/2fa.secret");
 const speakeasy = require("speakeasy");
+const crypto = require("crypto");
 const QRCode = require("qrcode");
+
 
 
 class AuthService {
@@ -88,33 +90,56 @@ class AuthService {
   async forgetPassword(forgetdetail) {
     try {
       const { error } = validemail(forgetdetail);
-
       if (error) {
         throw new HTTPException(
           errorCodes.UNAUTHORIZED.status,
           error.details[0].message
         );
       }
-
       const findUser = await User.findOne({ email: forgetdetail.email });
       if (!findUser) {
         throw new HTTPException(
           errorCodes.NOT_FOUND.status,
-          error.NOT_FOUND.message
+          errorCodes.NOT_FOUND.message
         );
       }
 
       const otp = generateOTP();
-      console.log("findUser", findUser.email);
-      RedisClient.set(findUser.email, otp, 180)
-        .then(() => console.log("OTP stored successfully"))
-        .catch((err) => console.error("Error storing OTP:", err));
-
-      console.log("otp", otp);
-      await SendMail(findUser.email, otp, "forgotpassword");
+      const hashedOtp = crypto
+        .createHash("sha256")
+        .update(String(otp))
+        .digest("hex");
+      try {
+        await RedisClient.set(findUser.email, hashedOtp, 180);
+      } catch (redisError) {
+        throw new HTTPException(
+          errorCodes.INTERNAL_SERVER_ERROR.status,
+          "Failed to process OTP. Please try again later."
+        );
+      }
+      const mailObj = {
+        email: findUser.email,
+        otp: otp,
+        purpose: "forgotpassword",
+      };
+      const result = await SendMail(mailObj);
+      return result;
     } catch (error) {
       throw error;
     }
+  }
+
+  async verifyotp(otpdetail) {
+    const { otp, email } = otpdetail;
+    const hashedOtp = await RedisClient.get(email);
+    const providedHashedOtp = crypto
+      .createHash("sha256")
+      .update(String(otp))
+      .digest("hex");
+    if (hashedOtp != providedHashedOtp) {
+      return false;
+    }
+    return true;
   }
 
   async generatesecret(detail) {
@@ -135,12 +160,12 @@ class AuthService {
 
   async verifysecret(detail) {
     try {
-      const {email , token} = detail;
-      const findUser = await authUser.findOne({email:email});
+      const { email, token } = detail;
+      const findUser = await authUser.findOne({ email: email });
       const verified = speakeasy.totp.verify({
         secret: findUser.twoFASecret,
         encoding: "base32",
-        token
+        token,
       });
       return verified;
     } catch (error) {

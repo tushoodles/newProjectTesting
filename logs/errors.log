@@ -232,3 +232,138 @@
 }
 [2024-12-19T22:38:12.135] [ERROR] middleware - [GET] /api/v1/auth/2fa-generate-secret >> StatusCode:: 400, Message:: Expected double-quoted property name in JSON at position 45
 [2024-12-19T22:38:14.856] [ERROR] middleware - [GET] /api/v1/auth/2fa-generate-secret >> StatusCode:: 400, Message:: Expected double-quoted property name in JSON at position 45
+[2024-12-20T12:03:59.970] [ERROR] node.mailer - Invalid Email Purpose
+[2024-12-20T12:04:02.680] [ERROR] node.mailer - Error in SendMail Error: No recipients defined
+    at SMTPConnection._formatError (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:807:19)
+    at SMTPConnection._setEnvelope (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:1045:34)
+    at SMTPConnection.send (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:629:14)
+    at sendMessage (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-transport/index.js:228:28)
+    at /home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-transport/index.js:286:25
+    at SMTPConnection._actionAUTHComplete (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:1600:9)
+    at SMTPConnection.<anonymous> (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:554:26)
+    at SMTPConnection._processResponse (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:991:20)
+    at SMTPConnection._onData (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:772:14)
+    at SMTPConnection._onSocketData (/home/tushar/Desktop/Testing/node_modules/nodemailer/lib/smtp-connection/index.js:195:44) {
+  code: 'EENVELOPE',
+  command: 'API'
+}
+[2024-12-20T12:05:37.886] [ERROR] node.mailer - Invalid Email Purpose
+[2024-12-20T12:05:37.887] [ERROR] node.mailer - Error in SendMail ReferenceError: info is not defined
+    at SendMail (/home/tushar/Desktop/Testing/src/utils/mail.handler.js:55:48)
+    at AuthService.forgetPassword (/home/tushar/Desktop/Testing/src/service/auth.service.js:114:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.forgetpassword (/home/tushar/Desktop/Testing/src/controller/auth.controller.js:37:26)
+[2024-12-20T12:06:23.548] [ERROR] node.mailer - Invalid Email Purpose
+[2024-12-20T12:10:08.041] [ERROR] node.mailer - Invalid Email Purpose
+[2024-12-20T12:10:51.102] [ERROR] node.mailer - Invalid Email Purpose
+[2024-12-20T12:11:24.866] [ERROR] node.mailer - Invalid Email Purpose
+[2024-12-20T12:11:45.901] [ERROR] node.mailer - Invalid Email Purpose
+[2024-12-20T12:12:31.156] [ERROR] node.mailer - Invalid Email Purpose
+[2024-12-20T13:01:09.695] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 500, Message:: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (743883)
+[2024-12-20T13:02:58.062] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 500, Message:: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (724302)
+[2024-12-20T13:04:37.050] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 500, Message:: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (206501)
+[2024-12-20T13:05:50.697] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 500, Message:: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (627907)
+[2024-12-20T13:06:33.005] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 500, Message:: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (319186)
+[2024-12-20T13:07:04.727] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 500, Message:: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (580826)
+[2024-12-20T13:14:39.661] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 500, Message:: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (725802)
+[2024-12-20T13:14:50.652] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 500, Message:: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (554015)
+[2024-12-20T13:16:41.092] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 500, Message:: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (313597)
+[2024-12-20T13:44:45.662] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 500, Message:: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (221833)
+[2024-12-20T13:46:51.003] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 500, Message:: logger is not defined
+[2024-12-20T14:12:10.153] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 500, Message:: logger is not defined
+[2024-12-20T14:12:57.286] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 500, Message:: logger is not defined
+[2024-12-20T14:13:23.072] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 500, Message:: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (995404)
+[2024-12-20T14:13:40.865] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 500, Message:: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (178280)
+[2024-12-20T14:14:14.776] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 500, Message:: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (805976)
+[2024-12-20T14:14:46.908] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 500, Message:: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (773775)
+[2024-12-20T14:15:31.037] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 500, Message:: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (366378)
+[2024-12-20T14:15:48.757] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 500, Message:: hashedOtp is not defined
+[2024-12-20T14:18:52.471] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 500, Message:: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (731772)
+[2024-12-20T14:27:16.254] [ERROR] middleware - [POST] /api/v1/auth/verify-otp >> StatusCode:: 500, Message:: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+[2024-12-20T14:54:28.030] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 401, Message:: "otp" is not allowed
+[2024-12-20T14:56:48.264] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 401, Message:: "otp" is not allowed
+[2024-12-20T14:57:29.728] [ERROR] middleware - [GET] /api/v1/auth/forget-password >> StatusCode:: 401, Message:: "otp" is not allowed
+[2024-12-20T17:30:07.547] [ERROR] chat-handler - Cannot read properties of undefined (reading 'user')
+[2024-12-20T17:52:37.190] [ERROR] auth.socket.middleware - HTTPException [Error]: Unauthorized. You must authenticate before accessing this resource.
+    at Array.AuthSocket (/home/tushar/Desktop/Testing/src/middleware/auth.socket.middleware.js:13:20)
+    at run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:130:19)
+    at Namespace.run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:141:9)
+    at Namespace._add (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:218:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 401,
+  data: undefined
+}
+[2024-12-20T17:53:02.181] [ERROR] auth.socket.middleware - HTTPException [Error]: Unauthorized. You must authenticate before accessing this resource.
+    at Array.AuthSocket (/home/tushar/Desktop/Testing/src/middleware/auth.socket.middleware.js:14:20)
+    at run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:130:19)
+    at Namespace.run (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:141:9)
+    at Namespace._add (/home/tushar/Desktop/Testing/node_modules/socket.io/dist/namespace.js:218:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  status: 401,
+  data: undefined
+}
+[2024-12-20T17:59:36.458] [ERROR] chat-handler - Chat.create is not a constructor
+[2024-12-20T18:03:04.278] [ERROR] chat-handler - Cannot read properties of undefined (reading 'create')
+[2024-12-20T18:04:34.554] [ERROR] chat-handler - Chat.create is not a constructor
+[2024-12-20T18:04:36.679] [ERROR] chat-handler - Chat.create is not a constructor
+[2024-12-20T18:08:38.149] [ERROR] chat-handler - newChat is not defined
+[2024-12-20T18:08:54.998] [ERROR] chat-handler - Chat validation failed: roomId: Path `roomId` is required., sender: Path `sender` is required., message: Path `message` is required.
+[2024-12-20T18:14:11.707] [ERROR] chat-handler - Chat validation failed: roomId: Path `roomId` is required., sender: Path `sender` is required., message: Path `message` is required.
+[2024-12-24T12:53:54.750] [ERROR] app - MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+    at new ConnectionString (/home/tushar/Desktop/Testing/node_modules/mongodb-connection-string-url/lib/index.js:86:19)
+    at parseOptions (/home/tushar/Desktop/Testing/node_modules/mongodb/lib/connection_string.js:185:17)
+    at new MongoClient (/home/tushar/Desktop/Testing/node_modules/mongodb/lib/mongo_client.js:53:63)
+    at NativeConnection.createClient (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:312:14)
+    at NativeConnection.openUri (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/connection.js:835:34)
+    at Mongoose.connect (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/mongoose.js:447:15)
+    at App.DatabaseConnection (/home/tushar/Desktop/Testing/src/app.js:34:20)
+    at new App (/home/tushar/Desktop/Testing/src/app.js:19:10)
+    at start (/home/tushar/Desktop/Testing/server.js:9:17)
+    at Object.<anonymous> (/home/tushar/Desktop/Testing/server.js:13:1)
+[2024-12-24T12:56:31.335] [ERROR] app - MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+    at new ConnectionString (/home/tushar/Desktop/Testing/node_modules/mongodb-connection-string-url/lib/index.js:86:19)
+    at parseOptions (/home/tushar/Desktop/Testing/node_modules/mongodb/lib/connection_string.js:185:17)
+    at new MongoClient (/home/tushar/Desktop/Testing/node_modules/mongodb/lib/mongo_client.js:53:63)
+    at NativeConnection.createClient (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:312:14)
+    at NativeConnection.openUri (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/connection.js:835:34)
+    at Mongoose.connect (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/mongoose.js:447:15)
+    at App.DatabaseConnection (/home/tushar/Desktop/Testing/src/app.js:34:20)
+    at new App (/home/tushar/Desktop/Testing/src/app.js:19:10)
+    at start (/home/tushar/Desktop/Testing/server.js:9:17)
+    at Object.<anonymous> (/home/tushar/Desktop/Testing/server.js:13:1)
+[2024-12-24T12:56:55.862] [ERROR] app - MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+    at new ConnectionString (/home/tushar/Desktop/Testing/node_modules/mongodb-connection-string-url/lib/index.js:86:19)
+    at parseOptions (/home/tushar/Desktop/Testing/node_modules/mongodb/lib/connection_string.js:185:17)
+    at new MongoClient (/home/tushar/Desktop/Testing/node_modules/mongodb/lib/mongo_client.js:53:63)
+    at NativeConnection.createClient (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:312:14)
+    at NativeConnection.openUri (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/connection.js:835:34)
+    at Mongoose.connect (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/mongoose.js:447:15)
+    at App.DatabaseConnection (/home/tushar/Desktop/Testing/src/app.js:34:20)
+    at new App (/home/tushar/Desktop/Testing/src/app.js:19:10)
+    at start (/home/tushar/Desktop/Testing/server.js:9:17)
+    at Object.<anonymous> (/home/tushar/Desktop/Testing/server.js:13:1)
+[2024-12-24T12:58:49.855] [ERROR] app - MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+    at new ConnectionString (/home/tushar/Desktop/Testing/node_modules/mongodb-connection-string-url/lib/index.js:86:19)
+    at parseOptions (/home/tushar/Desktop/Testing/node_modules/mongodb/lib/connection_string.js:185:17)
+    at new MongoClient (/home/tushar/Desktop/Testing/node_modules/mongodb/lib/mongo_client.js:53:63)
+    at NativeConnection.createClient (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:312:14)
+    at NativeConnection.openUri (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/connection.js:835:34)
+    at Mongoose.connect (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/mongoose.js:447:15)
+    at App.DatabaseConnection (/home/tushar/Desktop/Testing/src/app.js:34:20)
+    at new App (/home/tushar/Desktop/Testing/src/app.js:19:10)
+    at start (/home/tushar/Desktop/Testing/server.js:9:17)
+    at Object.<anonymous> (/home/tushar/Desktop/Testing/server.js:13:1)
+[2024-12-24T14:31:58.364] [ERROR] chat-handler - Chat validation failed: sender: Path `sender` is required.
+[2024-12-24T14:32:23.137] [ERROR] chat-handler - Chat validation failed: sender: Path `sender` is required.
+[2024-12-24T14:32:26.113] [ERROR] chat-handler - Chat validation failed: sender: Path `sender` is required.
+[2024-12-24T16:14:13.941] [ERROR] app - MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+    at new ConnectionString (/home/tushar/Desktop/Testing/node_modules/mongodb-connection-string-url/lib/index.js:86:19)
+    at parseOptions (/home/tushar/Desktop/Testing/node_modules/mongodb/lib/connection_string.js:185:17)
+    at new MongoClient (/home/tushar/Desktop/Testing/node_modules/mongodb/lib/mongo_client.js:53:63)
+    at NativeConnection.createClient (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:312:14)
+    at NativeConnection.openUri (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/connection.js:835:34)
+    at Mongoose.connect (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/mongoose.js:447:15)
+    at App.DatabaseConnection (/home/tushar/Desktop/Testing/src/app.js:34:20)
+    at new App (/home/tushar/Desktop/Testing/src/app.js:19:10)
+    at start (/home/tushar/Desktop/Testing/server.js:9:17)
+    at Object.<anonymous> (/home/tushar/Desktop/Testing/server.js:13:1)

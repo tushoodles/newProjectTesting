@@ -1,24 +1,23 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
 
-const movieSchema = new mongoose.Schema({
-    id:{
-        type:Number,
-        required:true,
-    },
-    title:{
-        type:String,
-        required:true,
-    },
-    author:{
-        type:Number,
-    },
-    date_published:{
-        type:Date,
-    },
-    content:{
-        type:String,
-    }
-})
+const blogSchema = new mongoose.Schema({
+  id: {
+    type: Number,
+    required: true,
+  },
+  title: {
+    type: String,
+    required: true,
+  },
+  author: {
+    type: String,
+  },
+  date_published: {
+    type: Date,
+  },
+  content: {
+    type: String,
+  },
+});
 
-
-module.exports = mongoose.model('BLOG',movieSchema);
+module.exports = mongoose.model('Blog', blogSchema);

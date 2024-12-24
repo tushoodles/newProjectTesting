@@ -1,6 +1,4 @@
 const mongoose = require('mongoose');
-
-
 const chatSchema  = mongoose.Schema({
     roomId:{
         type:String,
@@ -20,7 +18,5 @@ const chatSchema  = mongoose.Schema({
 });
 
 
-
 chatSchema.index({roomId:1});
-const Chat = mongoose.model('Chat', chatSchema);
-module.exports = Chat;
+module.exports = mongoose.model('Chat', chatSchema);

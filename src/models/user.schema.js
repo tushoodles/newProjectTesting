@@ -15,7 +15,7 @@ const userSchema = new mongoose.Schema({
     },
     usertype: {
         type: String,
-        required: true,
+        enum:['USER', 'ADMIN' , 'MANAGER' , 'OWNER']        
     },
     password: {
         type: String,
@@ -24,15 +24,17 @@ const userSchema = new mongoose.Schema({
     salt: {
         type: String,
     },
+    approved:{
+        type:Boolean,
+        default:false,
+    }
 }, {
     timestamps: true,
 });
 
-// Use a regular function instead of an arrow function
 userSchema.pre('save', function (next) {
     if (!this.isModified("password")) return next();
-
-    // Generate salt and hash password
+    
     this.salt = crypto.randomBytes(16).toString('hex');
     this.password = crypto
         .pbkdf2Sync(this.password, this.salt, 10000, 64, "sha512")
@@ -45,7 +47,7 @@ userSchema.methods.passwordMatched = function (plainPassword) {
     const hashedPassword = crypto
         .pbkdf2Sync(plainPassword, this.salt, 10000, 64, "sha512")
         .toString("hex");
-        
+
     return this.password === hashedPassword;
 };
 

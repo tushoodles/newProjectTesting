@@ -4,8 +4,7 @@ const mongoose = require('mongoose');
 const roomSchema  = new mongoose.Schema({
     participant:[
         {
-            type:mongoose.Schema.Types.ObjectId,
-            ref:'User',
+            type:String,
             required:true,
         },
     ],

@@ -28,12 +28,12 @@ class WebChatSocket{
         async joinPreviousRoom({socket}){
             const data = await joinPreviousRoom(socket);
         }
-        async createChatRoom({socket , data}){
-            const roomId = await joinChatRoom(socket ,data);
+        async createChatRoom({obj}){
+            const roomId = await joinChatRoom({obj});
             return roomId;
         }
-        async  addMessageToDataBase({socket , data}){
-            await addMessageToDataBase({socket , data});
+        async  addMessageToDataBase({obj}){
+            await addMessageToDataBase({obj});
         }
         async SendMessagetoRoom({socket , message , roomId, event}){
             socket.to(roomId).emit(event, message);
@@ -41,42 +41,44 @@ class WebChatSocket{
 
 
         setupSocket(){
-            //this.io.use(AuthSocket);
-            this.io.on('connection',(socket)=>{
-                logger.info(`New User Connected ${socket.id}`)
+                //this.io.use(AuthSocket);
+                this.io.on('connection',(socket)=>{
+                logger.info(`New User Connected ${socket.id}`);
+                socket.user='67640bfb7a85d02639eae343';
                 //console.log("socket", socket);
                 // this.joinPreviousRoom({socket});
-            
                 
                 socket.on(SOCKET_EVENTS.JOIN_CHAT,async(data)=>{
-                    console.log("socket", socket);
-                    console.log("data", data);
-                    this.io.emit('listen', data);
-                    // const roomId = await this.createChatRoom({socket , data});
-                    // return roomId;
+                    // this.io.emit('listen', data);
+                    const obj = { socket:socket ,data:data, recipientId: '-Qd-YiQ8qbzdccj2AAAH' };
+                    
+                    const roomId = await this.createChatRoom({obj});
+                    console.log("roomId", roomId);
+                    return roomId;
                 });
 
-                // socket.on(SOCKET_EVENTS.SEND_MESSAGE,async(data)=>{
-                //     this.addMessageToDataBase({
-                //         socket ,
-                //         data
-                //     })
-                //     await this.SendMessagetoRoom({
-                //         socket,
-                //         message:data.message,
-                //         roomId:data.roomId,
-                //         event:SOCKET_EVENTS.RECEIVE_MESSAGE
-                //     })
-                // })
+                socket.on(SOCKET_EVENTS.SEND_MESSAGE,async(data)=>{
+                    const obj = {socket:socket , data:data, roomId:'d9faeb73aa4f63c49f780d1b96c4051f' }
+                    this.addMessageToDataBase({
+                        obj
+                    })
 
-                // socket.on('error',(err)=>{
-                //     logger.error(`socket err ${err}`)
-                // });
+                    await this.SendMessagetoRoom({
+                        socket,
+                        message:data.message,
+                        roomId:data.roomId,
+                        event:SOCKET_EVENTS.RECEIVE_MESSAGE
+                    })
+                
+                })
 
-                // socket.on('disconnect',()=>{
-                //     logger.info(`User ${socket.id} is disconnected`);
-                // })
+                socket.on('error',(err)=>{
+                    logger.error(`socket err ${err}`)
+                });
 
+                socket.on('disconnect',()=>{
+                    logger.info(`User ${socket.id} is disconnected`);
+                })
             });
             this.io.on('connection_error',(error)=>{
                 logger.info(error.message);

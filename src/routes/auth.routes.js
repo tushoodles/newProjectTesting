@@ -24,6 +24,10 @@ class AuthRoutes {
       `${this.path}/forget-password`,
       this.authController.forgetpassword.bind(this.authController)
     );
+    this.router.post(
+      `${this.path}/verify-otp`,
+      this.authController.verifyOtp.bind(this.authController)
+    )
 
     this.router.post(
       `${this.path}/2fa-generate-secret`,
@@ -33,7 +37,9 @@ class AuthRoutes {
     this.router.get(
       `${this.path}/verify-token`,
       this.authController.verifySecret.bind(this.authController)
-    )
+    );   
+    
+  
   }
 }
 

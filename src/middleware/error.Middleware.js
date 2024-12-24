@@ -1,5 +1,3 @@
-
-
 const logger = require('log4js').getLogger('middleware');
 
 const errorMiddleware = (error, req, res, next) => {
