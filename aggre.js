@@ -1,9 +1,10 @@
 const mongoose = require("mongoose");
 
+
 const dbConnect = async () => {
   try {
     await mongoose.connect("mongodb://localhost:27017/aggree", {
-      serverSelectionTimeoutMS: 5000, // Set timeout for server selection
+      serverSelectionTimeoutMS: 5000, 
     });
     console.log("MongoDB connected successfully");
   } catch (error) {
@@ -130,7 +131,9 @@ const data = [
 
 const insertData = async () => {
   try {
-    const result = await Person.insertMany(data);
+    const response = await fetch('https://media.mongodb.org/zips.json');
+    const jsonData = await response.json(); // Await the parsed JSON
+    console.log("Fetched data:", jsonData);
     console.log("Data inserted successfully:");
   } catch (error) {
     console.error("Error inserting data:", error);
@@ -140,9 +143,15 @@ const insertData = async () => {
 
 const perfromOperation = async()=>{
     try{
-        const indx = await Person.listIndexes()
-        console.log("indx", indx);
-
+      const myData = await Person.aggregate([
+        {
+          $group: {
+            _id: "$vocation",        
+            total: { $sum: 1 },
+          }
+        }
+      ]);
+      console.log("myData", myData)
     }catch(error){
         console.log("error", error);
     }

@@ -4589,3 +4589,934 @@
 [2024-12-24T18:10:04.054] [INFO] socket-service - User -qTQWHl-Jpx7TOJ1AAAJ is disconnected
 [2024-12-24T18:10:04.055] [INFO] socket-service - User rbP3VSgNX2qqSp6WAAAI is disconnected
 [2024-12-24T18:10:04.056] [INFO] socket-service - User IlqdZNKUZ7DuwzxCAAAF is disconnected
+[2024-12-30T10:39:45.216] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T10:39:45.228] [INFO] app - Server is Running on Port 6060
+[2024-12-30T10:39:45.231] [ERROR] app - MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+    at new ConnectionString (/home/tushar/Desktop/Testing/node_modules/mongodb-connection-string-url/lib/index.js:86:19)
+    at parseOptions (/home/tushar/Desktop/Testing/node_modules/mongodb/lib/connection_string.js:185:17)
+    at new MongoClient (/home/tushar/Desktop/Testing/node_modules/mongodb/lib/mongo_client.js:53:63)
+    at NativeConnection.createClient (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:312:14)
+    at NativeConnection.openUri (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/connection.js:835:34)
+    at Mongoose.connect (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/mongoose.js:447:15)
+    at App.DatabaseConnection (/home/tushar/Desktop/Testing/src/app.js:34:20)
+    at new App (/home/tushar/Desktop/Testing/src/app.js:19:10)
+    at start (/home/tushar/Desktop/Testing/server.js:9:17)
+    at Object.<anonymous> (/home/tushar/Desktop/Testing/server.js:13:1)
+[2024-12-30T10:39:45.242] [INFO] redis_service - Redis Connection Established
+[2024-12-30T10:39:45.265] [INFO] redis_service - Redis is Ready
+[2024-12-30T10:40:33.251] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T10:40:33.266] [INFO] app - Server is Running on Port 6060
+[2024-12-30T10:40:33.270] [ERROR] app - MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+    at new ConnectionString (/home/tushar/Desktop/Testing/node_modules/mongodb-connection-string-url/lib/index.js:86:19)
+    at parseOptions (/home/tushar/Desktop/Testing/node_modules/mongodb/lib/connection_string.js:185:17)
+    at new MongoClient (/home/tushar/Desktop/Testing/node_modules/mongodb/lib/mongo_client.js:53:63)
+    at NativeConnection.createClient (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:312:14)
+    at NativeConnection.openUri (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/connection.js:835:34)
+    at Mongoose.connect (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/mongoose.js:447:15)
+    at App.DatabaseConnection (/home/tushar/Desktop/Testing/src/app.js:34:20)
+    at new App (/home/tushar/Desktop/Testing/src/app.js:19:10)
+    at start (/home/tushar/Desktop/Testing/server.js:9:17)
+    at Object.<anonymous> (/home/tushar/Desktop/Testing/server.js:13:1)
+[2024-12-30T10:40:33.290] [INFO] redis_service - Redis Connection Established
+[2024-12-30T10:40:33.296] [INFO] redis_service - Redis is Ready
+[2024-12-30T10:41:46.893] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T10:41:46.912] [INFO] app - Server is Running on Port 6060
+[2024-12-30T10:41:46.944] [INFO] redis_service - Redis Connection Established
+[2024-12-30T10:41:46.970] [INFO] app - DataBase Connected Successfully
+[2024-12-30T10:41:46.998] [INFO] redis_service - Redis is Ready
+[2024-12-30T10:52:02.261] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T10:52:02.287] [INFO] app - Server is Running on Port 6060
+[2024-12-30T10:52:02.316] [INFO] redis_service - Redis Connection Established
+[2024-12-30T10:52:02.332] [INFO] app - DataBase Connected Successfully
+[2024-12-30T10:52:02.347] [INFO] redis_service - Redis is Ready
+[2024-12-30T10:56:27.089] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T10:56:27.099] [INFO] app - Server is Running on Port 6060
+[2024-12-30T10:56:27.120] [INFO] redis_service - Redis Connection Established
+[2024-12-30T10:56:27.136] [INFO] app - DataBase Connected Successfully
+[2024-12-30T10:56:27.157] [INFO] redis_service - Redis is Ready
+[2024-12-30T10:58:25.672] [ERROR] middleware - [GET] /api/v1/user >> StatusCode:: 400, Message:: Expected double-quoted property name in JSON at position 44
+[2024-12-30T11:06:05.112] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:06:05.128] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:06:05.177] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:06:05.197] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:06:05.216] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:38:48.305] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:38:48.311] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:38:48.386] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:38:48.404] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:38:48.419] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:43:08.907] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:43:08.915] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:43:09.006] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:43:09.055] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:43:09.075] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:43:32.644] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:43:32.651] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:43:32.733] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:43:32.769] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:43:32.786] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:44:10.338] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:44:10.359] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:44:10.478] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:44:10.509] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:44:10.534] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:44:22.325] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:44:22.335] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:44:22.489] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:44:22.557] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:44:22.601] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:44:48.705] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: redisClient is not defined
+[2024-12-30T11:45:05.392] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:45:05.400] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:45:05.438] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:45:05.465] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:45:05.482] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:45:13.411] [INFO] redis_service - Key ::1 retrieved successfully
+[2024-12-30T11:45:55.826] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:45:55.833] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:45:55.887] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:45:55.912] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:45:55.927] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:48:36.287] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:48:36.294] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:48:36.344] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:48:36.365] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:48:36.393] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:49:22.104] [INFO] redis_service - Key ::1 retrieved successfully
+[2024-12-30T11:50:29.114] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:50:29.120] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:50:29.192] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:50:29.238] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:50:29.263] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:51:07.387] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:51:07.397] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:51:07.467] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:51:07.560] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:51:07.583] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:51:49.175] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:51:49.184] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:51:49.223] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:51:49.258] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:51:49.287] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:51:52.655] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:51:52.666] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:51:52.764] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:51:52.818] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:51:52.836] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:51:56.863] [INFO] redis_service - Key ::1 retrieved successfully
+[2024-12-30T11:52:12.982] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:52:12.999] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:52:13.117] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:52:13.175] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:52:13.205] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:52:49.968] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:52:49.979] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:52:50.100] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:52:50.135] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:52:50.179] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:52:54.456] [INFO] redis_service - Key ::1 retrieved successfully
+[2024-12-30T11:53:38.446] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:53:38.452] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:53:38.492] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:53:38.503] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:53:38.523] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:54:36.745] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:54:36.750] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:54:36.796] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:54:36.817] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:54:36.839] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:55:24.566] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:55:24.572] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:55:24.632] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:55:24.649] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:55:24.666] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:55:57.825] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:55:57.840] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:55:57.985] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:55:58.003] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:55:58.019] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:56:04.804] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:56:04.817] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:56:04.905] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:56:04.946] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:56:04.965] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:56:24.502] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:56:24.508] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:56:24.545] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:56:24.566] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:56:24.596] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:56:56.696] [INFO] redis_service - Key ::1 retrieved successfully
+[2024-12-30T11:57:25.511] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:57:25.517] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:57:25.584] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:57:25.615] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:57:25.628] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:58:20.966] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:58:20.978] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:58:21.051] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:58:21.071] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:58:21.086] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:58:42.064] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:58:42.071] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:58:42.139] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:58:42.169] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:58:42.181] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:59:06.383] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:59:06.393] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:59:06.470] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:59:06.493] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:59:06.506] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:59:38.495] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T11:59:38.503] [INFO] app - Server is Running on Port 6060
+[2024-12-30T11:59:38.602] [INFO] redis_service - Redis Connection Established
+[2024-12-30T11:59:38.635] [INFO] app - DataBase Connected Successfully
+[2024-12-30T11:59:38.649] [INFO] redis_service - Redis is Ready
+[2024-12-30T11:59:44.381] [INFO] redis_service - Key ::1 retrieved successfully
+[2024-12-30T11:59:44.392] [ERROR] redis_service - Failed to set key ::1: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      '::1',
+      '[{"requestTimeStamp":1735540184,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T11:59:44.396] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T12:00:17.097] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T12:00:17.107] [INFO] app - Server is Running on Port 6060
+[2024-12-30T12:00:17.208] [INFO] redis_service - Redis Connection Established
+[2024-12-30T12:00:17.252] [INFO] app - DataBase Connected Successfully
+[2024-12-30T12:00:17.277] [INFO] redis_service - Redis is Ready
+[2024-12-30T12:00:19.713] [INFO] redis_service - Key ::1 retrieved successfully
+[2024-12-30T12:00:19.716] [ERROR] redis_service - Failed to set key NaN: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      'NaN',
+      '[{"requestTimeStamp":1735540219,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T12:00:19.720] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T12:02:19.993] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T12:02:19.999] [INFO] app - Server is Running on Port 6060
+[2024-12-30T12:02:20.069] [INFO] redis_service - Redis Connection Established
+[2024-12-30T12:02:20.103] [INFO] app - DataBase Connected Successfully
+[2024-12-30T12:02:20.116] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:23:42.737] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:23:42.746] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:23:42.828] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:23:42.878] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:23:42.900] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:24:03.621] [INFO] redis_service - Key ::1 retrieved successfully
+[2024-12-30T13:24:03.626] [ERROR] redis_service - Failed to set key NaN: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      'NaN',
+      '[{"requestTimeStamp":1735545243,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:24:03.636] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:24:40.277] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:24:40.289] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:24:40.380] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:24:40.441] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:24:40.456] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:24:51.023] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:24:51.033] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:24:51.093] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:24:51.141] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:24:51.164] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:24:58.167] [INFO] redis_service - Key ::1 retrieved successfully
+[2024-12-30T13:24:58.172] [ERROR] redis_service - Failed to set key NaN: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      'NaN',
+      '[{"requestTimeStamp":1735545298,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:24:58.186] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:25:10.019] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:25:10.029] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:25:10.126] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:25:10.168] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:25:10.184] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:25:12.434] [INFO] redis_service - Key ::1 retrieved successfully
+[2024-12-30T13:25:12.443] [ERROR] redis_service - Failed to set key NaN: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      'NaN',
+      '[{"requestTimeStamp":1735545312,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:25:12.451] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:25:46.808] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:25:46.815] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:25:46.922] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:25:46.957] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:25:46.974] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:26:21.458] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:26:21.468] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:26:21.514] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:26:21.549] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:26:21.605] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:26:24.685] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: Assignment to constant variable.
+[2024-12-30T13:26:39.056] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:26:39.066] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:26:39.200] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:26:39.236] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:26:39.252] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:26:50.714] [INFO] redis_service - Key ::1 retrieved successfully
+[2024-12-30T13:26:50.718] [ERROR] redis_service - Failed to set key NaN: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      'NaN',
+      '[{"requestTimeStamp":1735545410,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:26:50.722] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:27:26.278] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:27:26.289] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:27:26.387] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:27:26.447] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:27:26.473] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:27:33.183] [INFO] redis_service - Key 127 retrieved successfully
+[2024-12-30T13:27:33.186] [ERROR] redis_service - Failed to set key NaN: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      'NaN',
+      '[{"requestTimeStamp":1735545453,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:27:33.191] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:28:08.088] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:28:08.099] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:28:08.181] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:28:08.224] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:28:08.242] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:28:15.303] [INFO] redis_service - Key 127 retrieved successfully
+[2024-12-30T13:28:15.307] [ERROR] redis_service - Failed to set key 127: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      '127',
+      '[{"requestTimeStamp":1735545495,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:28:15.311] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:29:29.277] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:29:29.292] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:29:29.347] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:29:29.381] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:29:29.417] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:29:32.732] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T13:29:32.736] [ERROR] redis_service - Failed to set key 127: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      '127',
+      '[{"requestTimeStamp":1735545572,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:29:32.740] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:31:17.806] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:31:17.815] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:31:17.911] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:31:17.958] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:31:17.974] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:31:26.878] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T13:31:26.882] [ERROR] redis_service - Failed to set key 127.0.0.1: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      '127.0.0.1',
+      '[{"requestTimeStamp":1735545686,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:31:26.886] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:31:40.676] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:31:40.683] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:31:40.740] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:31:40.761] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:31:40.782] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:34:23.366] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T13:34:23.369] [ERROR] redis_service - Failed to set key 127.0.0.1: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      '127.0.0.1',
+      '[{"requestTimeStamp":1735545863,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:34:23.373] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:35:02.296] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:35:02.306] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:35:02.395] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:35:02.468] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:35:02.490] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:35:15.452] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T13:35:15.455] [ERROR] redis_service - Failed to set key 127.0.0.1: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      '127.0.0.1',
+      '[{"requestTimeStamp":1735545915,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:35:15.460] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:35:36.643] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:35:36.651] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:35:36.689] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:35:36.721] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:35:36.761] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:36:15.700] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:36:15.711] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:36:15.860] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:36:15.880] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:36:15.895] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:36:37.436] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T13:36:37.448] [ERROR] redis_service - Failed to set key 127.0.0.1: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      '127.0.0.1',
+      '[{"requestTimeStamp":1735545997,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:36:37.452] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:37:09.562] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:37:09.570] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:37:09.652] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:37:09.693] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:37:09.720] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:37:13.906] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T13:37:13.909] [ERROR] redis_service - Failed to set key 127.0.0.1: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      '127.0.0.1',
+      '[{"requestTimeStamp":1735546033,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:37:13.912] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:38:30.003] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T13:38:30.019] [ERROR] redis_service - Failed to set key 127.0.0.1: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      '127.0.0.1',
+      '[{"requestTimeStamp":1735546110,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:38:30.021] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:39:28.534] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:39:28.540] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:39:28.601] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:39:28.628] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:39:28.642] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:40:47.966] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:40:47.976] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:40:48.078] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:40:48.131] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:40:48.157] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:41:28.938] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T13:41:28.947] [ERROR] redis_service - Failed to set key 127.0.0.1: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      '127.0.0.1',
+      '[{"requestTimeStamp":1735546288,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:41:28.955] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:44:50.215] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:44:50.223] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:44:50.299] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:44:50.322] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:44:50.338] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:45:05.082] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T13:45:05.096] [ERROR] redis_service - Failed to set key 127.0.0.1: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      '127.0.0.1',
+      '[{"requestTimeStamp":1735546505,"requestCount":1}]',
+      'EX',
+      'EX'
+    ]
+  }
+}
+[2024-12-30T13:45:05.101] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:48:23.144] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:48:23.152] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:48:23.214] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:48:23.249] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:48:23.320] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:48:27.680] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T13:48:27.685] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T13:49:03.959] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:49:03.967] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:49:04.061] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:49:04.090] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:49:04.107] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:49:07.259] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T13:49:07.267] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T13:49:40.748] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:49:40.755] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:49:40.812] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:49:40.831] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:49:40.850] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:49:45.058] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:49:45.068] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:49:45.127] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:49:45.177] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:49:45.218] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:49:50.256] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T13:49:50.260] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T13:50:31.366] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:50:31.379] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:50:31.497] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:50:31.537] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:50:31.558] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:50:43.418] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:50:43.428] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:50:43.512] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:50:43.548] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:50:43.565] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:50:48.803] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T13:50:48.806] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T13:51:13.977] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:51:13.989] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:51:14.072] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:51:14.119] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:51:14.134] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:51:47.835] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:51:47.841] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:51:47.888] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:51:47.908] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:51:47.943] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:51:53.525] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T13:51:53.528] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T13:52:37.161] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:52:37.171] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:52:37.240] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:52:37.274] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:52:37.318] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:52:51.518] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T13:52:51.521] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T13:52:51.528] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: WINDOW_SIZE_IN_HOURS is not defined
+[2024-12-30T13:53:26.039] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:53:26.050] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:53:26.132] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:53:26.189] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:53:26.212] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:53:32.089] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T13:53:32.091] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T13:53:53.695] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:53:53.702] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:53:53.753] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:53:53.792] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:53:53.822] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:54:04.651] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T13:54:04.656] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T13:54:04.665] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: windowStartTimestamp.unix is not a function
+[2024-12-30T13:54:20.030] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:54:20.038] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:54:20.084] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:54:20.102] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:54:20.122] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:54:25.898] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T13:54:25.901] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T13:55:25.252] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:55:25.257] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:55:25.332] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:55:25.371] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:55:25.387] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:55:31.354] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:55:31.360] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:55:31.415] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:55:31.456] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:55:31.474] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:55:34.643] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T13:55:34.646] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T13:56:41.812] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:56:41.818] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:56:41.859] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:56:41.878] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:56:41.911] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:56:51.690] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T13:56:51.699] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T13:57:14.452] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:57:14.459] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:57:14.504] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:57:14.526] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:57:14.544] [INFO] redis_service - Redis is Ready
+[2024-12-30T13:57:59.109] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T13:57:59.115] [INFO] app - Server is Running on Port 6060
+[2024-12-30T13:57:59.182] [INFO] redis_service - Redis Connection Established
+[2024-12-30T13:57:59.203] [INFO] app - DataBase Connected Successfully
+[2024-12-30T13:57:59.218] [INFO] redis_service - Redis is Ready
+[2024-12-30T14:00:04.865] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T14:00:04.874] [INFO] app - Server is Running on Port 6060
+[2024-12-30T14:00:04.906] [INFO] redis_service - Redis Connection Established
+[2024-12-30T14:00:04.925] [INFO] app - DataBase Connected Successfully
+[2024-12-30T14:00:04.951] [INFO] redis_service - Redis is Ready
+[2024-12-30T14:00:20.166] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T14:00:20.172] [INFO] app - Server is Running on Port 6060
+[2024-12-30T14:00:20.221] [INFO] redis_service - Redis Connection Established
+[2024-12-30T14:00:20.238] [INFO] app - DataBase Connected Successfully
+[2024-12-30T14:00:20.255] [INFO] redis_service - Redis is Ready
+[2024-12-30T14:00:31.034] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T14:00:31.042] [INFO] app - Server is Running on Port 6060
+[2024-12-30T14:00:31.108] [INFO] redis_service - Redis Connection Established
+[2024-12-30T14:00:31.190] [INFO] app - DataBase Connected Successfully
+[2024-12-30T14:00:31.206] [INFO] redis_service - Redis is Ready
+[2024-12-30T14:00:37.192] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:00:37.199] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:00:37.208] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: redisClient is not defined
+[2024-12-30T14:01:01.725] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T14:01:01.733] [INFO] app - Server is Running on Port 6060
+[2024-12-30T14:01:01.824] [INFO] redis_service - Redis Connection Established
+[2024-12-30T14:01:01.861] [INFO] app - DataBase Connected Successfully
+[2024-12-30T14:01:01.877] [INFO] redis_service - Redis is Ready
+[2024-12-30T14:01:10.574] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:01:10.577] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:01:10.608] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:01:27.532] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:01:27.535] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:01:27.543] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:04:27.450] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:04:27.452] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:04:27.459] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:04:50.728] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T14:04:50.734] [INFO] app - Server is Running on Port 6060
+[2024-12-30T14:04:50.794] [INFO] redis_service - Redis Connection Established
+[2024-12-30T14:04:50.836] [INFO] app - DataBase Connected Successfully
+[2024-12-30T14:04:50.876] [INFO] redis_service - Redis is Ready
+[2024-12-30T14:04:56.568] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:04:56.571] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:04:56.591] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:04:59.126] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:04:59.128] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:04:59.130] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'error')
+[2024-12-30T14:05:47.116] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T14:05:47.126] [INFO] app - Server is Running on Port 6060
+[2024-12-30T14:05:47.214] [INFO] redis_service - Redis Connection Established
+[2024-12-30T14:05:47.250] [INFO] app - DataBase Connected Successfully
+[2024-12-30T14:05:47.290] [INFO] redis_service - Redis is Ready
+[2024-12-30T14:05:51.457] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:05:51.462] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:05:51.501] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:06:00.455] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:06:00.458] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:06:00.462] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:06:19.789] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:06:19.791] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:06:19.797] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:06:28.429] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:06:28.432] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:06:28.441] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:06:31.265] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:06:31.268] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:06:31.273] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'error')
+[2024-12-30T14:06:34.319] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:06:34.321] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:06:34.324] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:07:34.624] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T14:07:34.636] [INFO] app - Server is Running on Port 6060
+[2024-12-30T14:07:34.718] [INFO] redis_service - Redis Connection Established
+[2024-12-30T14:07:34.737] [INFO] app - DataBase Connected Successfully
+[2024-12-30T14:07:34.770] [INFO] redis_service - Redis is Ready
+[2024-12-30T14:07:39.789] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:07:39.792] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:07:39.807] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:07:41.779] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:07:41.783] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:07:41.788] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:07:43.805] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:07:43.806] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:07:43.811] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:07:46.059] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:07:46.060] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:07:46.067] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+[2024-12-30T14:07:52.089] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:07:52.090] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:07:52.094] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:08:17.581] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:08:17.583] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:08:17.590] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:08:21.140] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:08:21.141] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:08:21.145] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:08:27.810] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:08:27.813] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:08:27.817] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:08:30.614] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:08:30.615] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:08:30.625] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+[2024-12-30T14:08:38.063] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:08:38.065] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:08:38.075] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:10:27.890] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:10:27.891] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:10:27.896] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:10:30.061] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:10:30.062] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:10:30.065] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:10:33.533] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:10:33.536] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:10:33.538] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:10:36.239] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:10:36.240] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:10:36.247] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+[2024-12-30T14:10:39.733] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:10:39.736] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:10:39.741] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:10:41.571] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:10:41.572] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:10:41.579] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:10:43.495] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:10:43.498] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:10:43.500] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:10:45.351] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:10:45.354] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:10:45.360] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:12:04.341] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T14:12:04.363] [INFO] app - Server is Running on Port 6060
+[2024-12-30T14:12:04.427] [INFO] redis_service - Redis Connection Established
+[2024-12-30T14:12:04.451] [INFO] app - DataBase Connected Successfully
+[2024-12-30T14:12:04.510] [INFO] redis_service - Redis is Ready
+[2024-12-30T14:12:07.873] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:12:07.881] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:12:07.932] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+[2024-12-30T14:12:10.152] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:12:10.157] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:12:10.176] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:12:12.501] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:12:12.502] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:12:12.506] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:12:15.594] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:12:15.595] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:12:15.598] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:12:18.076] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:12:18.078] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:12:18.081] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:12:20.715] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:12:20.717] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:12:20.734] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+[2024-12-30T14:15:09.599] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T14:15:09.612] [INFO] app - Server is Running on Port 6060
+[2024-12-30T14:15:09.720] [INFO] redis_service - Redis Connection Established
+[2024-12-30T14:15:09.781] [INFO] app - DataBase Connected Successfully
+[2024-12-30T14:15:09.814] [INFO] redis_service - Redis is Ready
+[2024-12-30T14:15:16.912] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:15:16.916] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:15:19.948] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:15:19.951] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:15:22.288] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:15:22.291] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:15:25.189] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:15:25.191] [INFO] redis_service - Key 127.0.0.1 set successfully with TTL of 
+[2024-12-30T14:15:27.933] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:15:30.496] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:15:32.276] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:15:36.723] [INFO] redis_service - Key 127.0.0.1 retrieved successfully
+[2024-12-30T14:16:06.984] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T14:16:06.992] [INFO] app - Server is Running on Port 6060
+[2024-12-30T14:16:07.128] [INFO] redis_service - Redis Connection Established
+[2024-12-30T14:16:07.211] [INFO] app - DataBase Connected Successfully
+[2024-12-30T14:16:07.250] [INFO] redis_service - Redis is Ready
+[2024-12-30T14:16:15.351] [INFO] redis_service - Key 127.0.0.2 retrieved successfully
+[2024-12-30T14:16:15.353] [INFO] redis_service - Key 127.0.0.2 set successfully with TTL of 
+[2024-12-30T14:16:36.042] [INFO] redis_service - Key 127.0.0.2 retrieved successfully
+[2024-12-30T14:16:36.045] [INFO] redis_service - Key 127.0.0.2 set successfully with TTL of 
+[2024-12-30T14:16:45.173] [INFO] redis_service - Key 127.0.0.2 retrieved successfully
+[2024-12-30T14:16:45.175] [INFO] redis_service - Key 127.0.0.2 set successfully with TTL of 
+[2024-12-30T14:16:47.369] [INFO] redis_service - Key 127.0.0.2 retrieved successfully
+[2024-12-30T14:16:47.370] [INFO] redis_service - Key 127.0.0.2 set successfully with TTL of 
+[2024-12-30T14:16:49.608] [INFO] redis_service - Key 127.0.0.2 retrieved successfully
+[2024-12-30T14:16:49.610] [INFO] redis_service - Key 127.0.0.2 set successfully with TTL of 
+[2024-12-30T14:16:51.408] [INFO] redis_service - Key 127.0.0.2 retrieved successfully
+[2024-12-30T14:17:57.860] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T14:17:57.865] [INFO] app - Server is Running on Port 6060
+[2024-12-30T14:17:57.941] [INFO] redis_service - Redis Connection Established
+[2024-12-30T14:17:57.965] [INFO] app - DataBase Connected Successfully
+[2024-12-30T14:17:57.983] [INFO] redis_service - Redis is Ready
+[2024-12-30T14:19:08.042] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T14:19:08.047] [INFO] app - Server is Running on Port 6060
+[2024-12-30T14:19:08.082] [INFO] redis_service - Redis Connection Established
+[2024-12-30T14:19:08.099] [INFO] app - DataBase Connected Successfully
+[2024-12-30T14:19:08.118] [INFO] redis_service - Redis is Ready
+[2024-12-30T14:29:23.820] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T14:29:23.827] [INFO] app - Server is Running on Port 6060
+[2024-12-30T14:29:23.881] [INFO] redis_service - Redis Connection Established
+[2024-12-30T14:29:23.927] [INFO] app - DataBase Connected Successfully
+[2024-12-30T14:29:23.942] [INFO] redis_service - Redis is Ready
+[2024-12-30T14:29:28.909] [INFO] redis_service - Key 127.0.0.2 retrieved successfully
+[2024-12-30T14:29:30.956] [INFO] redis_service - Key 127.0.0.2 retrieved successfully
+[2024-12-30T14:29:34.376] [INFO] redis_service - Key 127.0.0.2 retrieved successfully
+[2024-12-30T14:30:23.157] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T14:30:23.170] [INFO] app - Server is Running on Port 6060
+[2024-12-30T14:30:23.312] [INFO] redis_service - Redis Connection Established
+[2024-12-30T14:30:23.332] [INFO] app - DataBase Connected Successfully
+[2024-12-30T14:30:23.346] [INFO] redis_service - Redis is Ready
+[2024-12-30T14:33:39.466] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T14:33:39.476] [INFO] app - Server is Running on Port 6060
+[2024-12-30T14:33:39.581] [INFO] redis_service - Redis Connection Established
+[2024-12-30T14:33:39.605] [INFO] app - DataBase Connected Successfully
+[2024-12-30T14:33:39.623] [INFO] redis_service - Redis is Ready
+[2024-12-30T14:34:02.341] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T14:34:02.347] [INFO] app - Server is Running on Port 6060
+[2024-12-30T14:34:02.405] [INFO] redis_service - Redis Connection Established
+[2024-12-30T14:34:02.430] [INFO] app - DataBase Connected Successfully
+[2024-12-30T14:34:02.447] [INFO] redis_service - Redis is Ready
+[2024-12-30T14:34:30.476] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T14:34:30.481] [INFO] app - Server is Running on Port 6060
+[2024-12-30T14:34:30.539] [INFO] redis_service - Redis Connection Established
+[2024-12-30T14:34:30.554] [INFO] app - DataBase Connected Successfully
+[2024-12-30T14:34:30.584] [INFO] redis_service - Redis is Ready
+[2024-12-30T14:40:01.595] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T14:40:01.602] [INFO] app - Server is Running on Port 6060
+[2024-12-30T14:40:01.676] [INFO] redis_service - Redis Connection Established
+[2024-12-30T14:40:01.706] [INFO] app - DataBase Connected Successfully
+[2024-12-30T14:40:01.722] [INFO] redis_service - Redis is Ready
+[2024-12-30T14:40:09.992] [INFO] redis_service - Key 127.0.0.2 retrieved successfully
+[2024-12-30T14:40:28.881] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T14:40:28.890] [INFO] app - Server is Running on Port 6060
+[2024-12-30T14:40:28.955] [INFO] redis_service - Redis Connection Established
+[2024-12-30T14:40:28.977] [INFO] app - DataBase Connected Successfully
+[2024-12-30T14:40:29.040] [INFO] redis_service - Redis is Ready
+[2024-12-30T14:40:38.534] [INFO] redis_service - Key 127.0.0.3 retrieved successfully
+[2024-12-30T14:40:38.543] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: s is not defined
+[2024-12-30T14:40:56.400] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T14:40:56.408] [INFO] app - Server is Running on Port 6060
+[2024-12-30T14:40:56.542] [INFO] redis_service - Redis Connection Established
+[2024-12-30T14:40:56.562] [INFO] app - DataBase Connected Successfully
+[2024-12-30T14:40:56.584] [INFO] redis_service - Redis is Ready
+[2024-12-30T14:41:03.206] [INFO] redis_service - Key 127.0.0.3 retrieved successfully
+[2024-12-30T14:41:03.210] [INFO] redis_service - Key 127.0.0.3 set successfully with TTL of 
+[2024-12-30T14:41:23.089] [INFO] redis_service - Key 127.0.0.3 retrieved successfully
+[2024-12-30T14:41:23.092] [INFO] redis_service - Key 127.0.0.3 set successfully with TTL of 
+[2024-12-30T14:41:25.159] [INFO] redis_service - Key 127.0.0.3 retrieved successfully
+[2024-12-30T14:41:25.163] [INFO] redis_service - Key 127.0.0.3 set successfully with TTL of 
+[2024-12-30T14:41:27.102] [INFO] redis_service - Key 127.0.0.3 retrieved successfully
+[2024-12-30T14:41:27.103] [INFO] redis_service - Key 127.0.0.3 set successfully with TTL of 
+[2024-12-30T14:41:29.192] [INFO] redis_service - Key 127.0.0.3 retrieved successfully
+[2024-12-30T14:41:29.194] [INFO] redis_service - Key 127.0.0.3 set successfully with TTL of 
+[2024-12-30T14:41:30.791] [INFO] redis_service - Key 127.0.0.3 retrieved successfully
+[2024-12-30T14:45:38.651] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T14:45:38.659] [INFO] app - Server is Running on Port 6060
+[2024-12-30T14:45:38.782] [INFO] redis_service - Redis Connection Established
+[2024-12-30T14:45:38.803] [INFO] app - DataBase Connected Successfully
+[2024-12-30T14:45:38.818] [INFO] redis_service - Redis is Ready
+[2024-12-30T14:45:43.051] [INFO] redis_service - Key 127.0.0.3 retrieved successfully
+[2024-12-30T14:46:02.333] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T14:46:02.341] [INFO] app - Server is Running on Port 6060
+[2024-12-30T14:46:02.469] [INFO] redis_service - Redis Connection Established
+[2024-12-30T14:46:02.523] [INFO] app - DataBase Connected Successfully
+[2024-12-30T14:46:02.544] [INFO] redis_service - Redis is Ready
+[2024-12-30T14:46:07.884] [INFO] redis_service - Key 127.0.0.6 retrieved successfully
+[2024-12-30T14:46:07.887] [INFO] redis_service - Key 127.0.0.6 set successfully with TTL of 
+[2024-12-30T14:46:33.154] [INFO] redis_service - Key 127.0.0.6 retrieved successfully
+[2024-12-30T14:46:33.157] [INFO] redis_service - Key 127.0.0.6 set successfully with TTL of 
+[2024-12-30T14:46:58.049] [INFO] redis_service - Key 127.0.0.6 retrieved successfully
+[2024-12-30T14:46:58.050] [INFO] redis_service - Key 127.0.0.6 set successfully with TTL of 
+[2024-12-30T14:48:04.874] [INFO] redis_service - Key 127.0.0.6 retrieved successfully
+[2024-12-30T14:48:04.878] [INFO] redis_service - Key 127.0.0.6 set successfully with TTL of 
+[2024-12-30T14:48:09.834] [INFO] redis_service - Key 127.0.0.6 retrieved successfully
+[2024-12-30T14:48:09.838] [INFO] redis_service - Key 127.0.0.6 set successfully with TTL of 
+[2024-12-30T15:17:33.410] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T15:17:33.418] [INFO] app - Server is Running on Port 6060
+[2024-12-30T15:17:33.503] [INFO] redis_service - Redis Connection Established
+[2024-12-30T15:17:33.547] [INFO] app - DataBase Connected Successfully
+[2024-12-30T15:17:33.567] [INFO] redis_service - Redis is Ready
+[2024-12-30T15:18:10.418] [INFO] socket-service - Socket.IO Server is Running Waiting for connection...
+[2024-12-30T15:18:10.424] [INFO] app - Server is Running on Port 6060
+[2024-12-30T15:18:10.492] [INFO] redis_service - Redis Connection Established
+[2024-12-30T15:18:10.527] [INFO] app - DataBase Connected Successfully
+[2024-12-30T15:18:10.543] [INFO] redis_service - Redis is Ready

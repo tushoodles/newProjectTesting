@@ -8,10 +8,11 @@ const { CronJobTaks } =  require('./schedular/schedular.service.js');
 const { webChatSocket } = require("./socket/socket.service.js");
 const http = require('http');
 const { default: mongoose } = require("mongoose");
-
+const customRedisRateLimiter = require("./middleware/rate.middleware.js");
 
 
 class App {
+  
   constructor() {
     this.app = express();
     this.routes = routes;
@@ -57,6 +58,7 @@ class App {
     this.app.use(cors());
     this.app.use(express.json());
     this.app.use(express.urlencoded({ extended: true }));
+    this.app.use(customRedisRateLimiter)
   }
 
   initializeWebChatSocket(){

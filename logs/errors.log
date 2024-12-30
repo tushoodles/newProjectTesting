@@ -367,3 +367,277 @@
     at new App (/home/tushar/Desktop/Testing/src/app.js:19:10)
     at start (/home/tushar/Desktop/Testing/server.js:9:17)
     at Object.<anonymous> (/home/tushar/Desktop/Testing/server.js:13:1)
+[2024-12-30T10:39:45.231] [ERROR] app - MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+    at new ConnectionString (/home/tushar/Desktop/Testing/node_modules/mongodb-connection-string-url/lib/index.js:86:19)
+    at parseOptions (/home/tushar/Desktop/Testing/node_modules/mongodb/lib/connection_string.js:185:17)
+    at new MongoClient (/home/tushar/Desktop/Testing/node_modules/mongodb/lib/mongo_client.js:53:63)
+    at NativeConnection.createClient (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:312:14)
+    at NativeConnection.openUri (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/connection.js:835:34)
+    at Mongoose.connect (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/mongoose.js:447:15)
+    at App.DatabaseConnection (/home/tushar/Desktop/Testing/src/app.js:34:20)
+    at new App (/home/tushar/Desktop/Testing/src/app.js:19:10)
+    at start (/home/tushar/Desktop/Testing/server.js:9:17)
+    at Object.<anonymous> (/home/tushar/Desktop/Testing/server.js:13:1)
+[2024-12-30T10:40:33.270] [ERROR] app - MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+    at new ConnectionString (/home/tushar/Desktop/Testing/node_modules/mongodb-connection-string-url/lib/index.js:86:19)
+    at parseOptions (/home/tushar/Desktop/Testing/node_modules/mongodb/lib/connection_string.js:185:17)
+    at new MongoClient (/home/tushar/Desktop/Testing/node_modules/mongodb/lib/mongo_client.js:53:63)
+    at NativeConnection.createClient (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:312:14)
+    at NativeConnection.openUri (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/connection.js:835:34)
+    at Mongoose.connect (/home/tushar/Desktop/Testing/node_modules/mongoose/lib/mongoose.js:447:15)
+    at App.DatabaseConnection (/home/tushar/Desktop/Testing/src/app.js:34:20)
+    at new App (/home/tushar/Desktop/Testing/src/app.js:19:10)
+    at start (/home/tushar/Desktop/Testing/server.js:9:17)
+    at Object.<anonymous> (/home/tushar/Desktop/Testing/server.js:13:1)
+[2024-12-30T10:58:25.672] [ERROR] middleware - [GET] /api/v1/user >> StatusCode:: 400, Message:: Expected double-quoted property name in JSON at position 44
+[2024-12-30T11:44:48.705] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: redisClient is not defined
+[2024-12-30T11:59:44.392] [ERROR] redis_service - Failed to set key ::1: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      '::1',
+      '[{"requestTimeStamp":1735540184,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T11:59:44.396] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T12:00:19.716] [ERROR] redis_service - Failed to set key NaN: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      'NaN',
+      '[{"requestTimeStamp":1735540219,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T12:00:19.720] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:24:03.626] [ERROR] redis_service - Failed to set key NaN: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      'NaN',
+      '[{"requestTimeStamp":1735545243,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:24:03.636] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:24:58.172] [ERROR] redis_service - Failed to set key NaN: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      'NaN',
+      '[{"requestTimeStamp":1735545298,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:24:58.186] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:25:12.443] [ERROR] redis_service - Failed to set key NaN: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      'NaN',
+      '[{"requestTimeStamp":1735545312,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:25:12.451] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:26:24.685] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: Assignment to constant variable.
+[2024-12-30T13:26:50.718] [ERROR] redis_service - Failed to set key NaN: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      'NaN',
+      '[{"requestTimeStamp":1735545410,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:26:50.722] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:27:33.186] [ERROR] redis_service - Failed to set key NaN: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      'NaN',
+      '[{"requestTimeStamp":1735545453,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:27:33.191] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:28:15.307] [ERROR] redis_service - Failed to set key 127: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      '127',
+      '[{"requestTimeStamp":1735545495,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:28:15.311] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:29:32.736] [ERROR] redis_service - Failed to set key 127: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      '127',
+      '[{"requestTimeStamp":1735545572,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:29:32.740] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:31:26.882] [ERROR] redis_service - Failed to set key 127.0.0.1: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      '127.0.0.1',
+      '[{"requestTimeStamp":1735545686,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:31:26.886] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:34:23.369] [ERROR] redis_service - Failed to set key 127.0.0.1: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      '127.0.0.1',
+      '[{"requestTimeStamp":1735545863,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:34:23.373] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:35:15.455] [ERROR] redis_service - Failed to set key 127.0.0.1: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      '127.0.0.1',
+      '[{"requestTimeStamp":1735545915,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:35:15.460] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:36:37.448] [ERROR] redis_service - Failed to set key 127.0.0.1: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      '127.0.0.1',
+      '[{"requestTimeStamp":1735545997,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:36:37.452] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:37:13.909] [ERROR] redis_service - Failed to set key 127.0.0.1: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      '127.0.0.1',
+      '[{"requestTimeStamp":1735546033,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:37:13.912] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:38:30.019] [ERROR] redis_service - Failed to set key 127.0.0.1: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      '127.0.0.1',
+      '[{"requestTimeStamp":1735546110,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:38:30.021] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:41:28.947] [ERROR] redis_service - Failed to set key 127.0.0.1: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      '127.0.0.1',
+      '[{"requestTimeStamp":1735546288,"requestCount":1}]',
+      'EX',
+      ''
+    ]
+  }
+}
+[2024-12-30T13:41:28.955] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:45:05.096] [ERROR] redis_service - Failed to set key 127.0.0.1: ReplyError: ERR value is not an integer or out of range
+    at parseError (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/home/tushar/Desktop/Testing/node_modules/redis-parser/lib/parser.js:302:14) {
+  command: {
+    name: 'set',
+    args: [
+      '127.0.0.1',
+      '[{"requestTimeStamp":1735546505,"requestCount":1}]',
+      'EX',
+      'EX'
+    ]
+  }
+}
+[2024-12-30T13:45:05.101] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: ERR value is not an integer or out of range
+[2024-12-30T13:52:51.528] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: WINDOW_SIZE_IN_HOURS is not defined
+[2024-12-30T13:54:04.665] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: windowStartTimestamp.unix is not a function
+[2024-12-30T14:00:37.208] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: redisClient is not defined
+[2024-12-30T14:04:59.130] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'error')
+[2024-12-30T14:06:31.273] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'error')
+[2024-12-30T14:07:46.067] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+[2024-12-30T14:08:30.625] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+[2024-12-30T14:10:36.247] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+[2024-12-30T14:12:07.932] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+[2024-12-30T14:12:20.734] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+[2024-12-30T14:40:38.543] [ERROR] middleware - [GET] /api/v1/user/getuserdetail >> StatusCode:: 500, Message:: s is not defined

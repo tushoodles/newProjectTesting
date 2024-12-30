@@ -29,10 +29,11 @@ class RedisClient {
         });
     }
 
-    async set(key, value, ttl) {
+    async set(key, value) {
         try {
-            await this.client.set(key, value, 'EX', ttl);
-            logger.info(`Key ${key} set successfully with TTL of ${ttl} seconds`);
+            const result =  await this.client.set(key, value);
+            logger.info(`Key ${key} set successfully with TTL of `);
+            return result;
         } catch (error) {
             logger.error(`Failed to set key ${key}:`, error);
             throw error;
@@ -46,6 +47,15 @@ class RedisClient {
             return value;
         } catch (error) {
             logger.error(`Failed to get key ${key}:`, error);
+            throw error;
+        }
+    }
+
+    async clear(){
+        try{
+            const result = await this.client.flushall();
+            console.log("result", result);
+        }catch(error){
             throw error;
         }
     }
